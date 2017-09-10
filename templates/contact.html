@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block extracss %}
+<link href="static/css/contact.css" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+  {% block header %}
+  <div class="header">
+    <div class="header-left">
+      <a href="/"><p class="header-branding">liefbase</p></a>
+    </div>
+
+    <div class="header-right">
+      <a href="/pricing"><p class="header-option">Pricing</p></a>
+      <a href="/about"><p class="header-option">About</p></a>
+      <a href="/contact"><p class="header-option">Contact</p></a>
+    </div>
+  </div>
+  {% endblock %}
+{% endblock %}

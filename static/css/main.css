@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.landing {
+  height: 100vh;
+  width: 100vw;
+  background-color: #2159F9;
+  -webkit-clip-path: polygon(0 0, 1600px 0, 1600px 80%, 0 100%);
+  clip-path: polygon(0 0, 1600px 0, 1600px 80%, 0 100%);
+}
+.landing-bg {
+  position: absolute;
+  height: 98vh;
+  width: 100vw;
+  background-color: #658DFF;
+  -webkit-clip-path: polygon(0 0, 1600px 0, 1600px 100%, 0 93%);
+  clip-path: polygon(0 0, 1600px 0, 1600px 100%, 0 93%);
+}
+
+.header {
+  overflow: hidden;
+}
+.header-left p, .header-right p {
+  display: inline-block;
+}
+.header-right {
+  float: right;
+  padding: 2% 5% 0 0;
+}
+.header-left {
+  float: left;
+  padding: 2% 0 0 5%;
+}
+
+.slogan {
+  position: absolute;
+  top: 40%;
+}
+.slogan-sub {
+  position: absolute;
+  top: 46%;
+}
+.landing-body {
+  padding-left: 5%;
+}
+
+.header-on {
+  text-decoration: line-through;
+}
+
+.products-body {
+  position: relative;
+  padding: 0 5%;
+}
+.platform-description {
+  padding: 70px 0 70px 0;
+}
+.platform-point {
+  padding: 10px 0 60px 0;
+}

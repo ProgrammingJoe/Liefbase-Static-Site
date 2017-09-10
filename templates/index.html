@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <div>
+    <div class="landing-bg">
+    </div>
+    <div class="landing">
+      {% block header %}
+      <div class="header">
+        <div class="header-left">
+          <a href="/"><p class="header-branding header-landing">liefbase</p></a>
+        </div>
+
+        <div class="header-right">
+          <a href="/pricing"><p class="header-option header-landing">Pricing</p></a>
+          <a href="/about"><p class="header-option header-landing">About</p></a>
+          <a href="/contact"><p class="header-option header-landing">Contact</p></a>
+        </div>
+      </div>
+      {% endblock %}
+
+      <div class="landing-body">
+        <p class="slogan">Your hub for managing relief efforts</p>
+        <p class="slogan-sub">A communication and collaboration platform for disaster relief and humanitarian relief efforts.</p>
+      </div> <!-- End of landing-body -->
+    </div>
+
+
+  <div class="products-body">
+
+    <p class="platform-description">
+      Liefbase is a communication and collaboration platform designed to help disaster relief organizations better manage and share information during relief efforts.
+    </p>
+
+    <p class="platform-header">In Development</p>
+
+    <div class="platform-points">
+      <div class="platform-point">
+        <p class="point-title">Filtering</p>
+        <p class="point-description">Users can choose what layer or piece of information they would like to see or not see.
+          [reword] Information can be filtered by category, organization, or specific resources or hazards.</p>
+      </div>
+
+      <div class="platform-point">
+        <p class="point-title">Customizable functionality</p>
+        <p class="point-description">Users can customize their experience by creating and modifying custom map entity types,
+          creating and modifying map layers, and saving filter presets.</p>
+      </div>
+
+      <div class="platform-point">
+        <p class="point-title">Real time updating</p>
+        <p class="point-description">Online maps will automatically update for everyone (necessary?) as users add new information. [reword]</p>
+      </div>
+    </div>
+
+    <p class="platform-header">Coming Soon</p>
+
+    <div class="platform-points">
+      <div class="platform-point">
+        <p class="point-title">Shared Work Effort</p>
+        <p class="point-description">Rather than having all the relief organizations create their own maps for their own use,
+          all information will be available on a singular map. More information is available for all organizations and hundreds
+          of hours of time that was spent updating each individual map will be saved.</p>
+      </div>
+
+      <div class="platform-point">
+        <p class="point-title">Report Generation</p>
+        <p class="point-description">Reports can be generated and printed off to be used in presentations and
+          meetings and to be brought into relief zones that do not have online access.</p>
+      </div>
+
+      <div class="platform-point">
+        <p class="point-title">Legacy Imports</p>
+        <p class="point-description">Systems will be put in place that allow organizations to import their already existing map data into Liefbase.
+          This saves time and allows for a more integrated working environment with the Liefbase toolset.</p>
+      </div>
+    </div>
+
+    <p class="platform-title">Future Products<p>
+
+    <p class="platform-description">
+      Starting with Android, mobile development will begin shortly for data collection and offline map use during relief efforts around the world.
+    </p>
+
+  </div> <!-- end of products body -->
+{% endblock %}

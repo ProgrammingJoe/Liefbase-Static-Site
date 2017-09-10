@@ -1,0 +1,52 @@
+.about-body {
+  position: relative;
+  padding: 0 5%;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+.profile {
+  float: left;
+  height: 340px;
+}
+.profile p {
+  width: 200px;
+}
+.profile-container {
+  overflow: hidden;
+}
+
+.profile-inner-container {
+  text-align: center;
+}
+.profile-text {
+  display: inline-block;
+}
+
+@media only screen and (max-width : 767px) {
+  .profile {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width : 1023px) {
+  .profile {
+    width: 33%;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width : 1823px) {
+  .profile {
+    width: 25%;
+  }
+}
+
+@media only screen  and (min-width : 1824px) {
+  .profile {
+    width: 25%;
+  }
+}

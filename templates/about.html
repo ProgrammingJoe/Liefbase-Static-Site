@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+
+{% block extracss %}
+<link href="static/css/about.css" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+  {% block header %}
+  <div class="header">
+    <div class="header-left">
+      <a href="/"><p class="header-branding">liefbase</p></a>
+    </div>
+
+    <div class="header-right">
+      <a href="/pricing"><p class="header-option">Pricing</p></a>
+      <a href="/about"><p class="header-option">About</p></a>
+      <a href="/contact"><p class="header-option">Contact</p></a>
+    </div>
+  </div>
+  {% endblock %}
+
+  <div class="about-body">
+    <div class="profile-container">
+      <p class="container-title">Team</p>
+      <div class="profile-inner-container">
+        <div class="profile">
+          <img class="profile-image" src="static/img/joe.png">
+          <div class="profile-text">
+            <p class="profile-name">Joe Czepil <span class="profile-name-sub">co-founder</span></p>
+            <p class="profile-title">Team lead & Developer</p>
+            <p class="profile-contact">joeczepil@gmail.com</p>
+          </div>
+        </div>
+
+        <div class="profile">
+          <img class="profile-image" src="static/img/konrad.jpg">
+          <div class="profile-text">
+            <p class="profile-name">Konrad Schultz <span class="profile-name-sub">co-founder</span></p>
+            <p class="profile-title">Developer & Finances</p>
+            <p class="profile-contact">placeholder</p>
+          </div>
+        </div>
+
+        <div class="profile">
+          <img class="profile-image" src="static/img/dustin.png">
+          <div class="profile-text">
+            <p class="profile-name">Dustin Bolink <span class="profile-name-sub">co-founder</span></p>
+            <p class="profile-title">Developer</p>
+            <p class="profile-contact">placeholder</p>
+          </div>
+        </div>
+
+        <div class="profile">
+          <img class="profile-image" src="static/img/cam.png">
+          <div class="profile-text">
+            <p class="profile-name">Cam Long <span class="profile-name-sub">co-founder</span></p>
+            <p class="profile-title">Developer & Architecture Specialist</p>
+            <p class="profile-contact">placeholder</p>
+          </div>
+        </div>
+
+        <div class="profile">
+          <img class="profile-image" src="static/img/jonah.png">
+          <div class="profile-text">
+            <p class="profile-name">Jonah Rankin <span class="profile-name-sub">co-founder</span></p>
+            <p class="profile-title">Developer</p>
+            <p class="profile-contact">placeholder</p>
+          </div>
+        </div>
+
+        <div class="profile">
+          <img class="profile-image" src="static/img/curtis.png">
+          <div class="profile-text">
+            <p class="profile-name">Curtis St. Pierre</p>
+            <p class="profile-title">Developer & Advisor</p>
+            <p class="profile-contact">placeholder</p>
+          </div>
+        </div>
+
+        <div class="profile">
+          <img class="profile-image" src="static/img/spencer.png">
+          <div class="profile-text">
+            <p class="profile-name">Spencer Marsh</p>
+            <p class="profile-title">UI/UX Designer & Social Media</p>
+            <p class="profile-contact">placeholder</p>
+          </div>
+        </div>
+
+        <div class="profile">
+          <img class="profile-image" src="static/img/solenn.jpg">
+          <div class="profile-text">
+            <p class="profile-name">Solenn Madevon</p>
+            <p class="profile-title">Technical Writer, Marketing, & Social Media</p>
+            <p class="profile-contact">placeholder</p>
+          </div>
+        </div>
+      </div> <!-- End of profile-inner-container -->
+    </div> <!-- End of profile-container -->
+
+    <div class="advisor-container">
+      <p class="container-title">Advisors</p>
+
+      <a href="https://www.linkedin.com/in/etomenko/"><p class="advisor"><span class="advisor-name">Elizabeth Tomenko</span> - Emergency Response Program Officer at the Adventist Development Relief Agency</p></a>
+      <a href="https://www.linkedin.com/in/carla-funk-98231034/"><p class="advisor"><span class="advisor-name">Carla Funk</span> - Research, Non-Profit Management, Philanthropy</p></a>
+      <a href="https://www.linkedin.com/in/michael-shannon-01b2b98/"><p class="advisor"><span class="advisor-name">Michael Shannon</span> - Board Chairman at Power to Be Adventure Therapy & Entrepreneur in Residence at the Coast Capital Savings Innovation Centre UVic</p></a>
+      <a href="https://www.linkedin.com/in/dr-melanie-m-r-ba2b141/"><p class="advisor"><span class="advisor-name">Dr. Melanie Rudolph</span> - Innovation, Leadership, Mentoring</p></a>
+    </div>
+
+    <div class="awards-container">
+      <p class="container-title">Awards</p>
+
+      <p class="award">PitchIt Winner's at The Coast Capital Innovation Centre at UVic - June 2017</p>
+      <p class="award">Social Innovation PlanIt Winner's at The Coast Capital Innovation Centre at UVic - July 2017</p>
+
+    </div>
+  </div> <!-- End of about-body -->
+{% endblock %}

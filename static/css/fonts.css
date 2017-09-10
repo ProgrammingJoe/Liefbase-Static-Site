@@ -1,0 +1,31 @@
+.header-branding {
+  line-height: 48px;
+  font-size: 32px;
+  margin: 0;
+  color: #2159F9;
+}
+
+.header-option {
+  font-size: 18px;
+  line-height: 55px;
+  margin: 0;
+  padding: 0 5px;
+  color: #2159F9;
+}
+.header-right a:last-child p {
+  padding: 0 0 0 5px;
+}
+
+.header-landing.header-option,
+.header-landing.header-branding {
+  color: white;
+}
+
+.slogan {
+  font-size: 36px;
+  color: white;
+}
+.slogan-sub {
+  font-size: 28px;
+  color: white;
+}
