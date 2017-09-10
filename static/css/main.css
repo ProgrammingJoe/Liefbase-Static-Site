@@ -42,6 +42,14 @@ body {
   position: absolute;
   top: 46%;
 }
+.demo-signup {
+  position:absolute;
+  top: 54%;
+  background-color: white;
+  color: #2159F9;
+  padding: 12px;
+  border-radius: 3px;
+}
 .landing-body {
   padding-left: 5%;
 }

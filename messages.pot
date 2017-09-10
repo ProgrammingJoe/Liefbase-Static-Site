@@ -1,0 +1,188 @@
+# Translations template for PROJECT.
+# Copyright (C) 2017 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2017-09-10 13:43-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.0\n"
+
+#: templates/about.html:15 templates/contact.html:15 templates/index.html:15
+#: templates/pricing.html:15
+msgid "Pricing"
+msgstr ""
+
+#: templates/about.html:16 templates/contact.html:16 templates/index.html:16
+#: templates/pricing.html:16
+msgid "About"
+msgstr ""
+
+#: templates/about.html:17 templates/contact.html:17 templates/index.html:17
+#: templates/pricing.html:17
+msgid "Contact"
+msgstr ""
+
+#: templates/about.html:24
+msgid "Team"
+msgstr ""
+
+#: templates/about.html:29 templates/about.html:38 templates/about.html:47
+#: templates/about.html:56 templates/about.html:65
+msgid "co-founder"
+msgstr ""
+
+#: templates/about.html:30
+msgid "Team lead & Developer"
+msgstr ""
+
+#: templates/about.html:39
+msgid "Developer & Finances"
+msgstr ""
+
+#: templates/about.html:48 templates/about.html:66
+msgid "Developer"
+msgstr ""
+
+#: templates/about.html:57
+msgid "Developer & Architecture Specialist"
+msgstr ""
+
+#: templates/about.html:75
+msgid "Developer & Advisor"
+msgstr ""
+
+#: templates/about.html:84
+msgid "UI/UX Designer & Social Media"
+msgstr ""
+
+#: templates/about.html:93
+msgid "Technical Writer, Marketing, & Social Media"
+msgstr ""
+
+#: templates/about.html:101
+msgid "Advisors"
+msgstr ""
+
+#: templates/about.html:110
+msgid "Awards"
+msgstr ""
+
+#: templates/index.html:23
+msgid "Your hub for managing relief efforts"
+msgstr ""
+
+#: templates/index.html:24
+msgid ""
+"A communication and collaboration platform for disaster relief and "
+"humanitarian relief efforts."
+msgstr ""
+
+#: templates/index.html:26
+msgid "REQUEST A DEMO"
+msgstr ""
+
+#: templates/index.html:34
+msgid ""
+"Liefbase is a communication and collaboration platform designed to help "
+"disaster relief organizations better manage and share information during "
+"relief efforts."
+msgstr ""
+
+#: templates/index.html:37
+msgid "In Development"
+msgstr ""
+
+#: templates/index.html:41
+msgid "Filtering"
+msgstr ""
+
+#: templates/index.html:42
+msgid ""
+"Users can choose what layer or piece of information they would like to "
+"see or not see.\n"
+"          [reword] Information can be filtered by category, organization,"
+" or specific resources or hazards."
+msgstr ""
+
+#: templates/index.html:47
+msgid "Customizable functionality"
+msgstr ""
+
+#: templates/index.html:48
+msgid ""
+"Users can customize their experience by creating and modifying custom map"
+" entity types,\n"
+"          creating and modifying map layers, and saving filter presets."
+msgstr ""
+
+#: templates/index.html:53
+msgid "Real time updating"
+msgstr ""
+
+#: templates/index.html:54
+msgid ""
+"Online maps will automatically update for everyone (necessary?) as users "
+"add new information. [reword]"
+msgstr ""
+
+#: templates/index.html:58
+msgid "Coming Soon"
+msgstr ""
+
+#: templates/index.html:62
+msgid "Shared Work Effort"
+msgstr ""
+
+#: templates/index.html:63
+msgid ""
+"Rather than having all the relief organizations create their own maps for"
+" their own use,\n"
+"          all information will be available on a singular map. More "
+"information is available for all organizations and hundreds\n"
+"          of hours of time that was spent updating each individual map "
+"will be saved."
+msgstr ""
+
+#: templates/index.html:69
+msgid "Report Generation"
+msgstr ""
+
+#: templates/index.html:70
+msgid ""
+"Reports can be generated and printed off to be used in presentations and\n"
+"          meetings and to be brought into relief zones that do not have "
+"online access."
+msgstr ""
+
+#: templates/index.html:75
+msgid "Legacy Imports"
+msgstr ""
+
+#: templates/index.html:76
+msgid ""
+"Systems will be put in place that allow organizations to import their "
+"already existing map data into Liefbase.\n"
+"          This saves time and allows for a more integrated working "
+"environment with the Liefbase toolset."
+msgstr ""
+
+#: templates/index.html:81
+msgid "Future Products"
+msgstr ""
+
+#: templates/index.html:84
+msgid ""
+"Starting with Android, mobile development will begin shortly for data "
+"collection and offline map use during relief efforts around the world."
+msgstr ""
+
