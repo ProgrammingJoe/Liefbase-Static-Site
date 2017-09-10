@@ -3,7 +3,7 @@
 ## Setup
 
 * Clone project
-  * `$ git clone `
+  * `$ git clone git@gitlab.com:Liefbase/static_site.git`
 * Create and activate a virtual environment
   * `$ pip3 install virtualenv`
   * `$ python3 -m virtualenv venv` or whatever name you want instead of venv.
