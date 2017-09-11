@@ -1,0 +1,16 @@
+from static_site import app
+from flask_wtf import FlaskForm
+from wtforms import TextField, TextAreaField, SubmitField, validators, ValidationError
+
+class ContactForm(FlaskForm):
+  name = TextField("Name", [validators.Required()])
+  email = TextField("Email", [validators.Required(), validators.Email()])
+  subject = TextField("Subject", [validators.Required()])
+  message = TextAreaField("Message", [validators.Required()])
+  submit = SubmitField("Send")
+
+class DemoForm(FlaskForm):
+  name = TextField("Name", [validators.Required()])
+  email = TextField("Email", [validators.Required(), validators.Email()])
+  message = TextAreaField("Message", [validators.Required()])
+  submit = SubmitField("Send")

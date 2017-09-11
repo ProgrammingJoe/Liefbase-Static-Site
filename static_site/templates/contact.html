@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block extracss %}
+<link href="static/css/contact.css" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+  {% block header %}
+  <div class="header">
+    <div class="header-left">
+      <a href="/"><p class="header-branding">liefbase</p></a>
+    </div>
+
+    <div class="header-right">
+      <a href="/pricing"><p class="header-option">{{ _('Pricing') }}</p></a>
+      <a href="/about"><p class="header-option">{{ _('About') }}</p></a>
+      <a href="/contact"><p class="header-option">{{ _('Contact') }}</p></a>
+    </div>
+  </div>
+
+  <div class="contact-body">
+
+    <div class="contact-intro-container">
+      <p class="contact-intro header1">We'd love to hear from you.</p>
+
+      <p class="contact-sub-intro header2">Contact us with your questions, complaints, praise, feature requests, or any other comment you may have.
+        It all helps!
+      </p>
+    </div>
+
+    <div class="contact-form-container">
+      {% for message in get_flashed_messages() %}
+        <div class="flash">{{ message }}</div>
+      {% endfor %}
+
+      <form action="{{ url_for('contact') }}" class="contact-form" method=post>
+        {{ form.hidden_tag() }}
+
+        {{ form.name.label }}</br>
+        {{ form.name }}</br>
+
+        {{ form.email.label }}</br>
+        {{ form.email }}</br>
+
+        {{ form.subject.label }}</br>
+        {{ form.subject }}</br>
+
+        {{ form.message.label }}</br>
+        {{ form.message }}</br>
+
+        {{ form.submit }}
+      </form>
+    </div>
+  </div>
+  {% endblock %}
+{% endblock %}

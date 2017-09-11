@@ -1,0 +1,41 @@
+.about-body {
+  position: relative;
+  padding: 0 8%;
+}
+
+.profile-container {
+  overflow: hidden;
+  text-align: center;
+}
+.profile {
+  display: inline-block;
+  padding: 12px 0;
+}
+
+.profile-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  float: left;
+}
+.profile-text {
+  float: left;
+  position: relative;
+  bottom: -6px;
+  width: 230px;
+  padding: 0 0 0 8px;
+}
+
+.profile p {
+  margin: 0;
+  text-align: left;
+}
+
+
+.profile-container-title {
+  text-align: center;
+}
+
+.team-intro-container {
+  padding: 60px 160px 60px 0;
+}

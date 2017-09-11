@@ -1,0 +1,38 @@
+.contact-body {
+  padding: 0 5%;
+}
+
+.contact-intro-container {
+  padding: 60px 7%;
+}
+
+.contact-form-container {
+  padding: 0 15% 60px 15%;
+}
+.contact-form {
+  margin: auto;
+  width: 100%;
+  max-width: 600px;
+  display: block;
+}
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid grey;
+  margin: 0 0 16px 0;
+}
+.contact-form input {
+  height: 32px;
+}
+.contact-form input#submit {
+  color: white;
+  background-color: #2159F9;
+  border-radius: 3px;
+  width: 110px;
+  float: right;
+  margin-right: -6px;
+}
+.contact-form textarea {
+  height: 260px;
+}
