@@ -9,8 +9,8 @@
 
     <title>liefbase</title>
 
-    <link href="static/css/main.css" rel="stylesheet">
-    <link href="static/css/fonts.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/fonts.css') }}" rel="stylesheet">
     {% block extracss %}
     {% endblock %}
     <link rel="shortcut icon" href="">

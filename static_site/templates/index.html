@@ -12,9 +12,9 @@
         </div>
 
         <div class="header-right">
-          <a href="/pricing"><p class="header-option header-landing">{{ _('Pricing') }}</p></a>
-          <a href="/about"><p class="header-option header-landing">{{ _('About') }}</p></a>
-          <a href="/contact"><p class="header-option header-landing">{{ _('Contact') }}</p></a>
+          <a href="{{ url_for('pricing') }}"><p class="header-option header-landing">{{ _('Pricing') }}</p></a>
+          <a href="{{ url_for('about') }}"><p class="header-option header-landing">{{ _('About') }}</p></a>
+          <a href="{{ url_for('contact', demo=0) }}"><p class="header-option header-landing">{{ _('Contact') }}</p></a>
         </div>
       </div>
       {% endblock %}
@@ -23,7 +23,7 @@
         <p class="slogan">{{ _('Your hub for managing relief efforts') }}</p>
         <p class="slogan-sub">{{ _('A communication and collaboration platform for disaster relief and humanitarian relief efforts.') }}</p>
 
-        <div class="demo-signup">{{ _('REQUEST A DEMO') }}</div>
+        <a href="{{ url_for('contact', demo=1) }}"><div class="demo-signup button">{{ _('REQUEST A DEMO') }}</div></a>
       </div> <!-- End of landing-body -->
     </div>
 
@@ -34,24 +34,24 @@
       {{ _('Liefbase is a communication and collaboration platform designed to help disaster relief organizations better manage and share information during relief efforts.') }}
     </p>
 
-    <p class="platform-header">{{ _('In Development') }}</p>
+    <p class="platform-header">{{ _('Features') }}</p>
 
     <div class="platform-points">
       <div class="platform-point">
         <p class="point-title">{{ _('Filtering') }}</p>
-        <p class="point-description">{{ _('Users can choose what layer or piece of information they would like to see or not see.
-          [reword] Information can be filtered by category, organization, or specific resources or hazards.') }}</p>
+        <p class="point-description">{{ _('Users can choose what layers or pieces of information they would like to see.
+          Information can be filtered by category, organization, or specific resources or hazards.') }}</p>
       </div>
 
       <div class="platform-point">
         <p class="point-title">{{ _('Customizable functionality') }}</p>
-        <p class="point-description">{{ _('Users can customize their experience by creating and modifying custom map entity types,
-          creating and modifying map layers, and saving filter presets.') }}</p>
+        <p class="point-description">{{ _('Users can customize their experience by creating and modifying map
+          information, map layers, and saving past searches.') }}</p>
       </div>
 
       <div class="platform-point">
         <p class="point-title">{{ _('Real time updating') }}</p>
-        <p class="point-description">{{ _('Online maps will automatically update for everyone (necessary?) as users add new information. [reword]') }}</p>
+        <p class="point-description">{{ _('Online maps will update automatically, in real-time, as users add new information.') }}</p>
       </div>
     </div>
 
@@ -59,30 +59,46 @@
 
     <div class="platform-points">
       <div class="platform-point">
-        <p class="point-title">{{ _('Shared Work Effort') }}</p>
-        <p class="point-description">{{ _('Rather than having all the relief organizations create their own maps for their own use,
-          all information will be available on a singular map. More information is available for all organizations and hundreds
-          of hours of time that was spent updating each individual map will be saved.') }}</p>
+        <p class="point-title">{{ _('Shared Environments') }}</p>
+        <p class="point-description">{{ _('Organizations will be able to manage their own maps or choose to share maps
+          and map information with other stakeholders for collaboration purposes.') }}</p>
       </div>
 
       <div class="platform-point">
         <p class="point-title">{{ _('Report Generation') }}</p>
-        <p class="point-description">{{ _('Reports can be generated and printed off to be used in presentations and
-          meetings and to be brought into relief zones that do not have online access.') }}</p>
+        <p class="point-description">{{ _('Users will be able to generate reports summarizing the effectiveness
+          of relief efforts for presentations and archiving purposes.') }}</p>
+      </div>
+
+      <div class="platform-point">
+        <p class="point-title">{{ _('Offline Support') }}</p>
+        <p class="point-description">{{ _('Users will be able to export and print maps for offline support in relief zones.') }}</p>
+      </div>
+
+      <div class="platform-point">
+        <p class="point-title">{{ _('Custom Access') }}</p>
+        <p class="point-description">{{ _('Users will be able to assign custom viewing and editing access to
+          individuals, teams and organizations.') }}</p>
       </div>
 
       <div class="platform-point">
         <p class="point-title">{{ _('Legacy Imports') }}</p>
-        <p class="point-description">{{ _('Systems will be put in place that allow organizations to import their already existing map data into Liefbase.
-          This saves time and allows for a more integrated working environment with the Liefbase toolset.') }}</p>
+        <p class="point-description">{{ _('Organizations will be able to import their pre-existing map data.') }}</p>
       </div>
     </div>
 
-    <p class="platform-title">{{ _('Future Products') }}<p>
+    <p class="platform-title">{{ _('Future Plans') }}</p>
 
     <p class="platform-description">
-      {{ _('Starting with Android, mobile development will begin shortly for data collection and offline map use during relief efforts around the world.') }}
+      {{ _('In the near future we would like to begin development on mobile applications for offline support, data collection, and communication.') }}
     </p>
 
   </div> <!-- end of products body -->
+
+  <div class="demo-container">
+    <p class="demo-title">{{ _('Request a Demo') }}</p>
+
+    <p class="demo-body">{{ _('Developing a platform that meets the needs and requirements of our customers is our number one priority.
+      Contact us for a demo so that we can let you know what our plans are and you can help us shape the future platform.') }}</p>
+  </div>
 {% endblock %}

@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block extracss %}
-<link href="static/css/contact.css" rel="stylesheet">
+<link href="{{ url_for('static', filename='css/contact.css') }}" rel="stylesheet">
 {% endblock %}
 
 {% block content %}
@@ -12,32 +12,58 @@
     </div>
 
     <div class="header-right">
-      <a href="/pricing"><p class="header-option">{{ _('Pricing') }}</p></a>
-      <a href="/about"><p class="header-option">{{ _('About') }}</p></a>
-      <a href="/contact"><p class="header-option">{{ _('Contact') }}</p></a>
+      <a href="{{ url_for('pricing') }}"><p class="header-option">{{ _('Pricing') }}</p></a>
+      <a href="{{ url_for('about') }}"><p class="header-option">{{ _('About') }}</p></a>
+      <a href="{{ url_for('contact', demo=0) }}"><p class="header-option">{{ _('Contact') }}</p></a>
     </div>
   </div>
 
   <div class="contact-body">
 
     <div class="contact-intro-container">
-      <p class="contact-intro header1">We'd love to hear from you.</p>
-
-      <p class="contact-sub-intro header2">Contact us with your questions, complaints, praise, feature requests, or any other comment you may have.
-        It all helps!
-      </p>
+      {% if demo %}
+        <p class="contact-intro header">{{ _('Demo request') }}</p>
+        <p class="contact-sub-intro sub-header">
+        {% if success %}
+          {{ _('We will get back to you as soon as possible to arrange a demo.') }}
+        {% else %}
+          {{ _('Please provide an explanation about who you are and why you would like a demo.') }}
+        {% endif %}
+        </p>
+      {% else %}
+        <p class="contact-intro header">{{ _('We would love to hear from you!') }}</p>
+        <p class="contact-sub-intro sub-header">
+        {% if success %}
+          {{ _('Thanks so much, we will get back to you soon.') }}
+        {% else %}
+          {{ _('Please contact us with any questions, concerns, or feature requests.') }}
+        {% endif %}
+        </p>
+      {% endif %}
     </div>
 
     <div class="contact-form-container">
-      {% if success %}
-        <p class="success-contact">Thanks so much, we will get back to you soon</p>
-      {% else %}
-
       {% for message in get_flashed_messages() %}
         <div class="flash">{{ message }}</div>
       {% endfor %}
 
-        <form action="{{ url_for('contact') }}" class="contact-form" method=post>
+      {% if not success and demo %}
+        <form action="{{ url_for('contact', demo=1) }}" class="contact-form" method=post>
+          {{ form2.hidden_tag() }}
+
+          {{ form2.name.label }}</br>
+          {{ form2.name }}</br>
+
+          {{ form2.email.label }}</br>
+          {{ form2.email }}</br>
+
+          {{ form2.message.label }}</br>
+          {{ form2.message }}</br>
+
+          {{ form2.submit }}
+        </form>
+      {% elif not success %}
+        <form action="{{ url_for('contact', demo=1) }}" class="contact-form" method=post>
           {{ form.hidden_tag() }}
 
           {{ form.name.label }}</br>
@@ -54,6 +80,7 @@
 
           {{ form.submit }}
         </form>
+      {% else %}
       {% endif %}
     </div>
   </div>

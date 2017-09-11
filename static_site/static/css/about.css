@@ -9,7 +9,13 @@
 }
 .profile {
   display: inline-block;
+  width: 33%;
+}
+.profile-inner {
+  min-width: 283px;
+  margin: auto;
   padding: 12px 0;
+  display: inline-block;
 }
 
 .profile-image {
@@ -22,7 +28,6 @@
   float: left;
   position: relative;
   bottom: -6px;
-  width: 230px;
   padding: 0 0 0 8px;
 }
 
@@ -31,11 +36,30 @@
   text-align: left;
 }
 
-
 .profile-container-title {
-  text-align: center;
+  text-align: left;
 }
 
 .team-intro-container {
-  padding: 60px 160px 60px 0;
+  padding: 70px 160px 70px 0;
+}
+
+.value:nth-child(even) {
+  margin-right: 40%;
+}
+.value:nth-child(odd) {
+  margin-left: 40%;
+}
+.value {
+  padding: 30px;
+  background-color: white;
+  margin-bottom: 60px;
+  border-radius: 4px;
+  box-shadow: 0 1px 6px rgba(105, 105, 105, .25);
+}
+.value-image {
+  display: inline-block;
+}
+.value-title {
+  display: inline-block;
 }

@@ -1,6 +1,7 @@
 body {
   margin: 0;
   overflow-x: hidden;
+  background-color: #E5E5E5;
 }
 
 input {
@@ -23,6 +24,9 @@ input {
   clip-path: polygon(0 0, 1600px 0, 1600px 100%, 0 93%);
 }
 
+.header-right a:last-child p {
+  padding: 0 0 0 5px;
+}
 .header {
   overflow: hidden;
 }
@@ -54,7 +58,7 @@ input {
   padding: 12px;
   border-radius: 3px;
 }
-.landing-body {
+.landing-body, .products-body, .demo-container {
   padding-left: 5%;
 }
 
@@ -64,7 +68,6 @@ input {
 
 .products-body {
   position: relative;
-  padding: 0 5%;
 }
 .platform-description {
   padding: 70px 0 70px 0;

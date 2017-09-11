@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block extracss %}
-<link href="static/css/pricing.css" rel="stylesheet">
+<link href="{{ url_for('static', filename='css/pricing.css') }}" rel="stylesheet">
 {% endblock %}
 
 {% block content %}
@@ -12,9 +12,9 @@
     </div>
 
     <div class="header-right">
-      <a href="/pricing"><p class="header-option">{{ _('Pricing') }}</p></a>
-      <a href="/about"><p class="header-option">{{ _('About') }}</p></a>
-      <a href="/contact"><p class="header-option">{{ _('Contact') }}</p></a>
+      <a href="{{ url_for('pricing') }}"><p class="header-option">{{ _('Pricing') }}</p></a>
+      <a href="{{ url_for('about') }}"><p class="header-option">{{ _('About') }}</p></a>
+      <a href="{{ url_for('contact', demo=0) }}"><p class="header-option">{{ _('Contact') }}</p></a>
     </div>
   </div>
   {% endblock %}

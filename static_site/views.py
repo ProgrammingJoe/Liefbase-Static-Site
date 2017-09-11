@@ -15,26 +15,39 @@ def pricing():
 def about():
   return render_template('about.html')
 
-@app.route('/contact', methods=['GET', 'POST'])
-def contact():
+@app.route('/contact')
+@app.route('/contact/<demo>', methods=['GET', 'POST'])
+def contact(demo):
   form = ContactForm()
   form2 = DemoForm()
 
+  demo = False if demo == '0' else True
+
   if request.method == 'POST':
-    if form.validate() == False:
+    if form and form.validate() == False or form2 and form2.validate() == False:
       flash('All fields are required.')
-      return render_template('contact.html', form=form)
-    else:
+      return render_template('contact.html', form=form, form2=form2, demo=demo)
+    elif form2 and form2.validate() == True:
+      msg = Message("Demo Request", sender='liefbaseinfo@gmail.com', recipients=['liefbaseinfo@gmail.com'])
+      msg.body = """
+      From: %s <%s>
+      %s
+      """ % (form.name.data, form.email.data, form.message.data)
+      mail.send(msg)
+      return render_template('contact.html', success=True, demo=True)
+    elif form and form.validate() == True:
       msg = Message(form.subject.data, sender='liefbaseinfo@gmail.com', recipients=['liefbaseinfo@gmail.com'])
       msg.body = """
       From: %s <%s>
       %s
       """ % (form.name.data, form.email.data, form.message.data)
       mail.send(msg)
-      return render_template('contact.html', success=True)
+      return render_template('contact.html', success=True, demo=False)
+    else:
+      return render_template('contact.html', form=form, form2=form2, demo=False)
 
   elif request.method == 'GET':
-    return render_template('contact.html', form=form)
+    return render_template('contact.html', form=form, form2=form2, demo=demo)
 
 @babel.localeselector
 def get_locale():

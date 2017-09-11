@@ -1,4 +1,18 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../font/Roboto-Regular.ttf');
+}
+@font-face {
+  font-family: 'Roboto-light';
+  src: url('../font/Roboto-Light.ttf');
+}
+@font-face {
+  font-family: 'Roboto-medium';
+  src: url('../font/Roboto-Medium.ttf');
+}
+
 .header-branding {
+  font-family: 'Roboto';
   line-height: 48px;
   font-size: 32px;
   margin: 0;
@@ -6,14 +20,12 @@
 }
 
 .header-option {
+  font-family: 'Roboto';
   font-size: 18px;
   line-height: 55px;
   margin: 0;
   padding: 0 5px;
   color: #2159F9;
-}
-.header-right a:last-child p {
-  padding: 0 0 0 5px;
 }
 
 .header-landing.header-option,
@@ -22,24 +34,48 @@
 }
 
 .slogan {
+  font-family: 'Roboto';
   font-size: 36px;
   color: white;
 }
 .slogan-sub {
+  font-family: 'Roboto-light';
   font-size: 28px;
   color: white;
 }
 
-.header1 {
+.header {
+  font-family: 'Roboto';
   color: #282828;
   font-size: 40px;
 }
-.header2 {
+.sub-header {
+  font-family: 'Roboto-light';
   color: #868686;
   font-size: 18px;
 }
-
-.header3 {
+.section-header {
+  font-family: 'Roboto';
   color: #282828;
   font-size: 30px;
+}
+.value-title {
+  font-family: 'Roboto';
+  color: #282828;
+  font-size: 20px;
+}
+.title {
+  font-family: 'Roboto';
+  color: #282828;
+  font-size: 18px;
+}
+.sub-title {
+  font-family: 'Roboto-light';
+  color: #868686;
+  font-size: 15px;
+}
+.button {
+  font-family: 'Roboto-medium';
+  color: #2159F9;
+  font-size: 14px;
 }
