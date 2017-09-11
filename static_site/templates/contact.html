@@ -29,27 +29,32 @@
     </div>
 
     <div class="contact-form-container">
+      {% if success %}
+        <p class="success-contact">Thanks so much, we will get back to you soon</p>
+      {% else %}
+
       {% for message in get_flashed_messages() %}
         <div class="flash">{{ message }}</div>
       {% endfor %}
 
-      <form action="{{ url_for('contact') }}" class="contact-form" method=post>
-        {{ form.hidden_tag() }}
+        <form action="{{ url_for('contact') }}" class="contact-form" method=post>
+          {{ form.hidden_tag() }}
 
-        {{ form.name.label }}</br>
-        {{ form.name }}</br>
+          {{ form.name.label }}</br>
+          {{ form.name }}</br>
 
-        {{ form.email.label }}</br>
-        {{ form.email }}</br>
+          {{ form.email.label }}</br>
+          {{ form.email }}</br>
 
-        {{ form.subject.label }}</br>
-        {{ form.subject }}</br>
+          {{ form.subject.label }}</br>
+          {{ form.subject }}</br>
 
-        {{ form.message.label }}</br>
-        {{ form.message }}</br>
+          {{ form.message.label }}</br>
+          {{ form.message }}</br>
 
-        {{ form.submit }}
-      </form>
+          {{ form.submit }}
+        </form>
+      {% endif %}
     </div>
   </div>
   {% endblock %}

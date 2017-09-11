@@ -1,4 +1,4 @@
-from static_site import app, babel
+from static_site import app, babel, mail
 from forms import ContactForm, DemoForm
 from flask import render_template, request, flash
 from flask_mail import Message
@@ -25,12 +25,13 @@ def contact():
       flash('All fields are required.')
       return render_template('contact.html', form=form)
     else:
-      msg = Message(form.subject.data, sender='contact@example.com', recipients=['your_email@example.com'])
+      msg = Message(form.subject.data, sender='liefbaseinfo@gmail.com', recipients=['liefbaseinfo@gmail.com'])
       msg.body = """
       From: %s <%s>
       %s
       """ % (form.name.data, form.email.data, form.message.data)
       mail.send(msg)
+      return render_template('contact.html', success=True)
 
   elif request.method == 'GET':
     return render_template('contact.html', form=form)
