@@ -69,13 +69,28 @@
   color: #282828;
   font-size: 18px;
 }
+.feature-title {
+  font-family: 'Roboto';
+  color: #868686;
+  font-size: 18px;
+}
 .sub-title {
   font-family: 'Roboto-light';
   color: #868686;
   font-size: 15px;
 }
+.standard-text {
+  font-family: 'Roboto-light';
+  color: #000000;
+  font-size: 15px;
+}
 .button {
   font-family: 'Roboto-medium';
   color: #2159F9;
+  font-size: 14px;
+}
+.button-intra {
+  font-family: 'Roboto-medium';
+  color: white;
   font-size: 14px;
 }

@@ -30,75 +30,98 @@
 
   <div class="products-body">
 
-    <p class="platform-description">
+    <p class="platform-description standard-text">
       {{ _('Liefbase is a communication and collaboration platform designed to help disaster relief organizations better manage and share information during relief efforts.') }}
     </p>
 
-    <p class="platform-header">{{ _('Features') }}</p>
+    <p class="platform-header section-header">{{ _('Features') }}</p>
 
     <div class="platform-points">
       <div class="platform-point">
-        <p class="point-title">{{ _('Filtering') }}</p>
-        <p class="point-description">{{ _('Users can choose what layers or pieces of information they would like to see.
-          Information can be filtered by category, organization, or specific resources or hazards.') }}</p>
+        <div class="platform-point-inner">
+          <p class="point-title feature-title">{{ _('FILTERING') }}</p>
+          <p class="point-description standard-text">{{ _('Users can choose what layers or pieces of information they would like to see.
+            Information can be filtered by category, organization, or specific resources or hazards.') }}</p>
+        </div>
       </div>
 
       <div class="platform-point">
-        <p class="point-title">{{ _('Customizable functionality') }}</p>
-        <p class="point-description">{{ _('Users can customize their experience by creating and modifying map
-          information, map layers, and saving past searches.') }}</p>
+        <div class="platform-point-inner">
+          <p class="point-title feature-title">{{ _('CUSTOMIZABLE FUNCTIONALITY') }}</p>
+          <p class="point-description standard-text">{{ _('Users can customize their experience by creating and modifying map
+            information, map layers, and saving past searches.') }}</p>
+        </div>
       </div>
 
       <div class="platform-point">
-        <p class="point-title">{{ _('Real time updating') }}</p>
-        <p class="point-description">{{ _('Online maps will update automatically, in real-time, as users add new information.') }}</p>
+        <div class="platform-point-inner">
+          <p class="point-title feature-title">{{ _('REAL TIME UPDATING') }}</p>
+          <p class="point-description standard-text">{{ _('Online maps will update automatically, in real-time, as users add new information.') }}</p>
+        </div>
       </div>
     </div>
 
-    <p class="platform-header">{{ _('Coming Soon') }}</p>
+    <p class="platform-header section-header">{{ _('Coming Soon') }}</p>
 
     <div class="platform-points">
       <div class="platform-point">
-        <p class="point-title">{{ _('Shared Environments') }}</p>
-        <p class="point-description">{{ _('Organizations will be able to manage their own maps or choose to share maps
-          and map information with other stakeholders for collaboration purposes.') }}</p>
+        <div class="platform-point-inner">
+          <p class="point-title feature-title">{{ _('SHARED ENVIRONMENTS') }}</p>
+          <p class="point-description standard-text">{{ _('Organizations will be able to manage their own maps or choose to share maps
+            and map information with other stakeholders for collaboration purposes.') }}</p>
+        </div>
       </div>
 
       <div class="platform-point">
-        <p class="point-title">{{ _('Report Generation') }}</p>
-        <p class="point-description">{{ _('Users will be able to generate reports summarizing the effectiveness
-          of relief efforts for presentations and archiving purposes.') }}</p>
+        <div class="platform-point-inner">
+          <p class="point-title feature-title">{{ _('REPORT GENERATION') }}</p>
+          <p class="point-description standard-text">{{ _('Users will be able to generate reports summarizing the effectiveness
+            of relief efforts for presentations and archiving purposes.') }}</p>
+        </div>
       </div>
 
       <div class="platform-point">
-        <p class="point-title">{{ _('Offline Support') }}</p>
-        <p class="point-description">{{ _('Users will be able to export and print maps for offline support in relief zones.') }}</p>
+        <div class="platform-point-inner">
+          <p class="point-title feature-title">{{ _('OFFLINE SUPPORT') }}</p>
+          <p class="point-description standard-text">{{ _('Users will be able to export and print maps for offline support in relief zones.') }}</p>
+        </div>
       </div>
 
       <div class="platform-point">
-        <p class="point-title">{{ _('Custom Access') }}</p>
-        <p class="point-description">{{ _('Users will be able to assign custom viewing and editing access to
-          individuals, teams and organizations.') }}</p>
+        <div class="platform-point-inner">
+          <p class="point-title feature-title">{{ _('CUSTOM ACCESS') }}</p>
+          <p class="point-description standard-text">{{ _('Users will be able to assign custom viewing and editing access to
+            individuals, teams and organizations.') }}</p>
+        </div>
       </div>
 
       <div class="platform-point">
-        <p class="point-title">{{ _('Legacy Imports') }}</p>
-        <p class="point-description">{{ _('Organizations will be able to import their pre-existing map data.') }}</p>
+        <div class="platform-point-inner">
+          <p class="point-title feature-title">{{ _('LEGACY IMPORTS') }}</p>
+          <p class="point-description standard-text">{{ _('Organizations will be able to import their pre-existing map data.') }}</p>
+        </div>
       </div>
     </div>
 
-    <p class="platform-title">{{ _('Future Plans') }}</p>
+    <p class="platform-title section-header">{{ _('Future Plans') }}</p>
 
-    <p class="platform-description">
+    <p class="platform-description sub-header">
       {{ _('In the near future we would like to begin development on mobile applications for offline support, data collection, and communication.') }}
     </p>
 
   </div> <!-- end of products body -->
 
   <div class="demo-container">
-    <p class="demo-title">{{ _('Request a Demo') }}</p>
+    <p class="demo-title section-header">{{ _('Request a Demo') }}</p>
 
-    <p class="demo-body">{{ _('Developing a platform that meets the needs and requirements of our customers is our number one priority.
+    <p class="demo-body sub-header">{{ _('Developing a platform that meets the needs and requirements of our customers is our number one priority.
       Contact us for a demo so that we can let you know what our plans are and you can help us shape the future platform.') }}</p>
+
+    <div class="demo-block">
+      <p class="demo-ready section-header">Ready for a Demo?</p>
+      <a href="{{ url_for('contact', demo=1) }}"><div class="demo-signup-bot button-intra">{{ _('REQUEST A DEMO') }}</div></a>
+    </div>
+  </div>
+
   </div>
 {% endblock %}
