@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-09-10 17:00-0700\n"
+"POT-Creation-Date: 2017-09-12 22:47-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,64 +17,149 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.0\n"
 
-#: templates/about.html:15 templates/contact.html:15 templates/index.html:15
-#: templates/pricing.html:15
-msgid "Pricing"
+#: templates/about.html:15 templates/contact.html:15 templates/donate.html:15
+#: templates/index.html:15
+msgid "Donate"
 msgstr ""
 
-#: templates/about.html:16 templates/contact.html:16 templates/index.html:16
-#: templates/pricing.html:16
+#: templates/about.html:16 templates/contact.html:16 templates/donate.html:16
+#: templates/index.html:16
 msgid "About"
 msgstr ""
 
-#: templates/about.html:17 templates/contact.html:17 templates/index.html:17
-#: templates/pricing.html:17
+#: templates/about.html:17 templates/contact.html:17 templates/donate.html:17
+#: templates/index.html:17
 msgid "Contact"
 msgstr ""
 
 #: templates/about.html:24
-msgid "Team"
+msgid "Bringing everyone together, for effective relief efforts"
 msgstr ""
 
-#: templates/about.html:29 templates/about.html:38 templates/about.html:47
-#: templates/about.html:56 templates/about.html:65
-msgid "co-founder"
+#: templates/about.html:25
+msgid ""
+"Liefbase’s mission is to create dependable, secure, and user friendly "
+"platforms to help relief organizations, governments, and the public "
+"better collaborate during relief efforts."
 msgstr ""
 
 #: templates/about.html:30
+msgid "Our team"
+msgstr ""
+
+#: templates/about.html:37
 msgid "Team lead & Developer"
 msgstr ""
 
-#: templates/about.html:39
+#: templates/about.html:47
 msgid "Developer & Finances"
 msgstr ""
 
-#: templates/about.html:48 templates/about.html:66
+#: templates/about.html:57 templates/about.html:67 templates/about.html:77
+#: templates/about.html:87
 msgid "Developer"
 msgstr ""
 
-#: templates/about.html:57
-msgid "Developer & Architecture Specialist"
+#: templates/about.html:97
+msgid "Designer"
 msgstr ""
 
-#: templates/about.html:75
-msgid "Developer & Advisor"
+#: templates/about.html:107
+msgid "Technical Writer & Marketing"
 msgstr ""
 
-#: templates/about.html:84
-msgid "UI/UX Designer & Social Media"
+#: templates/about.html:115
+msgid "Some things that matter to us"
 msgstr ""
 
-#: templates/about.html:93
-msgid "Technical Writer, Marketing, & Social Media"
+#: templates/about.html:119
+msgid "Transparency and Accountability"
 msgstr ""
 
-#: templates/about.html:101
-msgid "Advisors"
+#: templates/about.html:120
+msgid ""
+"We believe that transparency and accountability between disaster relief "
+"organizations, government organizations, and the public will save time "
+"and resources, promote stronger relationships, and foster collaboration."
 msgstr ""
 
-#: templates/about.html:110
-msgid "Awards"
+#: templates/about.html:126
+msgid "Integrity and Security"
+msgstr ""
+
+#: templates/about.html:127
+msgid ""
+"We offer secure and confidential platforms that provide organizations and"
+" the public with assurance that their data and personal information will "
+"be safeguarded against loss or theft, unauthorized access, alteration or "
+"disclosure."
+msgstr ""
+
+#: templates/about.html:133
+msgid "Impartiality and Neutrality"
+msgstr ""
+
+#: templates/about.html:134
+msgid ""
+"Our goal is developing tools accessible to all organizations and persons "
+"during relief efforts. We are committed to working with all people and "
+"organizations fairly, without any discrimination on the basis of race, "
+"colour, ancestry, nationality, religion, physical or mental disability, "
+"age, sex, gender identity, or sexual orientation."
+msgstr ""
+
+#: templates/contact.html:25
+msgid "Demo request"
+msgstr ""
+
+#: templates/contact.html:28
+msgid "We will get back to you as soon as possible to arrange a demo."
+msgstr ""
+
+#: templates/contact.html:30
+msgid ""
+"Please provide an explanation about who you are and why you would like a "
+"demo."
+msgstr ""
+
+#: templates/contact.html:34
+msgid "We would love to hear from you!"
+msgstr ""
+
+#: templates/contact.html:37
+msgid "Thanks so much, we will get back to you soon."
+msgstr ""
+
+#: templates/contact.html:39
+msgid "Please contact us with any questions, concerns, or feature requests."
+msgstr ""
+
+#: templates/donate.html:23
+msgid "We appreciate your support!"
+msgstr ""
+
+#: templates/donate.html:24
+msgid ""
+"Liefbase is developing platforms to help communities and organizations "
+"around the world work together in times of stress. We believe that rather"
+" than charging all of our users to use the platform, we should instead "
+"give people the opportunity to donate and help others when they are in "
+"need. In disasters and relief efforts we are all on the same side and "
+"your donations help keep the Liefbase community growing and cohesive."
+msgstr ""
+
+#: templates/donate.html:25
+msgid ""
+"Rest assured that the donations you make today may help get resources to "
+"people in need in times of stress."
+msgstr ""
+
+#: templates/donate.html:27
+msgid "Thanks,"
+msgstr ""
+
+#: templates/donate.html:29
+msgid "The Liefbase Team"
 msgstr ""
 
 #: templates/index.html:23
@@ -87,7 +172,7 @@ msgid ""
 "humanitarian relief efforts."
 msgstr ""
 
-#: templates/index.html:26
+#: templates/index.html:26 templates/index.html:116
 msgid "REQUEST A DEMO"
 msgstr ""
 
@@ -99,90 +184,115 @@ msgid ""
 msgstr ""
 
 #: templates/index.html:37
-msgid "In Development"
-msgstr ""
-
-#: templates/index.html:41
-msgid "Filtering"
+msgid "Features"
 msgstr ""
 
 #: templates/index.html:42
+msgid "FILTERING"
+msgstr ""
+
+#: templates/index.html:43
 msgid ""
-"Users can choose what layer or piece of information they would like to "
-"see or not see.\n"
-"          [reword] Information can be filtered by category, organization,"
-" or specific resources or hazards."
+"Users can choose what layers or pieces of information they would like to "
+"see. Information can be filtered by category, organization, or specific "
+"resources or hazards."
 msgstr ""
 
-#: templates/index.html:47
-msgid "Customizable functionality"
+#: templates/index.html:49
+msgid "CUSTOMIZABLE FUNCTIONALITY"
 msgstr ""
 
-#: templates/index.html:48
+#: templates/index.html:50
 msgid ""
-"Users can customize their experience by creating and modifying custom map"
-" entity types,\n"
-"          creating and modifying map layers, and saving filter presets."
+"Users can customize their experience by creating and modifying map "
+"information, map layers, and saving past searches."
 msgstr ""
 
-#: templates/index.html:53
-msgid "Real time updating"
+#: templates/index.html:56
+msgid "REAL TIME UPDATING"
 msgstr ""
 
-#: templates/index.html:54
+#: templates/index.html:57
 msgid ""
-"Online maps will automatically update for everyone (necessary?) as users "
-"add new information. [reword]"
-msgstr ""
-
-#: templates/index.html:58
-msgid "Coming Soon"
+"Online maps will update automatically, in real-time, as users add new "
+"information."
 msgstr ""
 
 #: templates/index.html:62
-msgid "Shared Work Effort"
+msgid "Coming Soon"
 msgstr ""
 
-#: templates/index.html:63
+#: templates/index.html:67
+msgid "SHARED ENVIRONMENTS"
+msgstr ""
+
+#: templates/index.html:68
 msgid ""
-"Rather than having all the relief organizations create their own maps for"
-" their own use,\n"
-"          all information will be available on a singular map. More "
-"information is available for all organizations and hundreds\n"
-"          of hours of time that was spent updating each individual map "
-"will be saved."
+"Organizations will be able to manage their own maps or choose to share "
+"maps and map information with other stakeholders for collaboration "
+"purposes."
 msgstr ""
 
-#: templates/index.html:69
-msgid "Report Generation"
-msgstr ""
-
-#: templates/index.html:70
-msgid ""
-"Reports can be generated and printed off to be used in presentations and\n"
-"          meetings and to be brought into relief zones that do not have "
-"online access."
+#: templates/index.html:74
+msgid "REPORT GENERATION"
 msgstr ""
 
 #: templates/index.html:75
-msgid "Legacy Imports"
-msgstr ""
-
-#: templates/index.html:76
 msgid ""
-"Systems will be put in place that allow organizations to import their "
-"already existing map data into Liefbase.\n"
-"          This saves time and allows for a more integrated working "
-"environment with the Liefbase toolset."
+"Users will be able to generate reports summarizing the effectiveness of "
+"relief efforts for presentations and archiving purposes."
 msgstr ""
 
 #: templates/index.html:81
-msgid "Future Products"
+msgid "OFFLINE SUPPORT"
 msgstr ""
 
-#: templates/index.html:84
+#: templates/index.html:82
 msgid ""
-"Starting with Android, mobile development will begin shortly for data "
-"collection and offline map use during relief efforts around the world."
+"Users will be able to export and print maps for offline support in relief"
+" zones."
 msgstr ""
 
+#: templates/index.html:88
+msgid "CUSTOM ACCESS"
+msgstr ""
+
+#: templates/index.html:89
+msgid ""
+"Users will be able to assign custom viewing and editing access to "
+"individuals, teams and organizations."
+msgstr ""
+
+#: templates/index.html:95
+msgid "LEGACY IMPORTS"
+msgstr ""
+
+#: templates/index.html:96
+msgid "Organizations will be able to import their pre-existing map data."
+msgstr ""
+
+#: templates/index.html:101
+msgid "Future Plans"
+msgstr ""
+
+#: templates/index.html:104
+msgid ""
+"In the near future we would like to begin development on mobile "
+"applications for offline support, data collection, and communication."
+msgstr ""
+
+#: templates/index.html:110
+msgid "Request a Demo"
+msgstr ""
+
+#: templates/index.html:112
+msgid ""
+"Developing a platform that meets the needs and requirements of our "
+"customers is our number one priority. Contact us for a demo so that we "
+"can let you know what our plans are and you can help us shape the future "
+"platform."
+msgstr ""
+
+#: templates/index.html:115
+msgid "Ready for a Demo?"
+msgstr ""

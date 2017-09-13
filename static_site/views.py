@@ -7,7 +7,7 @@ from flask_mail import Message
 def index():
   return render_template('index.html')
 
-@app.route('/pricing')
+@app.route('/donate')
 def donate():
   return render_template('donate.html')
 

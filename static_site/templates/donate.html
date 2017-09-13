@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block extracss %}
-<link href="{{ url_for('static', filename='css/pricing.css') }}" rel="stylesheet">
+<link href="{{ url_for('static', filename='css/donate.css') }}" rel="stylesheet">
 {% endblock %}
 
 {% block content %}
@@ -19,7 +19,15 @@
   </div>
   {% endblock %}
 
-  <div class="pricing-body">
+  <div class="donate-body">
+    <p class="header">{{ _('We appreciate your support!') }}</p>
+    <p class="sub-header">{{ _('Liefbase is developing platforms to help communities and organizations around the world work together in times of stress. We believe that rather than charging all of our users to use the platform, we should instead give people the opportunity to donate and help others when they are in need. In disasters and relief efforts we are all on the same side and your donations help keep the Liefbase community growing and cohesive.') }}</p>
+    <p class="sub-header">{{ _('Rest assured that the donations you make today may help get resources to people in need in times of stress.') }}</p>
+
+    <p class="sub-header">{{ _('Thanks,') }}</p>
+
+    <p class="sub-header">{{ _('The Liefbase Team') }}</p>
+    </p>
 
   </div> <!-- End of pricing-body -->
 {% endblock %}

@@ -59,7 +59,8 @@ input {
 .demo-container,
 .footer,
 .about-body,
-.contact-body {
+.contact-body,
+.donate-body {
   width: 90%;
   max-width: 900px;
   padding: 0 5% 0 5%;
