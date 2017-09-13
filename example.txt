@@ -31,16 +31,18 @@ REQUEST A DEMO
 Liefbase is a communication and collaboration platform designed to help disaster relief organizations better manage and share information during relief efforts.
 Features
 FILTERING
-Users can choose what layers or pieces of information they would like to see. Information can be filtered by category, organization, or specific resources or hazards.
+Users can easily choose what layers or pieces of information they would like to see at any given moment.
 CUSTOMIZABLE FUNCTIONALITY
-Users can customize their experience by creating and modifying map information, map layers, and saving past searches.
+Users can customize their experience by creating custom map information, saving past searches, and more.
 REAL TIME UPDATING
 Online maps will update automatically, in real-time, as users add new information.
+PUBLIC INPUT
+The public can supply information and support to others before and after organizational help arrives.
 Coming Soon
 SHARED ENVIRONMENTS
-Organizations will be able to manage their own maps or choose to share maps and map information with other stakeholders for collaboration purposes.
+Organizations will be able to manage their own maps or choose to share and collaborate with other stakeholders.
 REPORT GENERATION
-Users will be able to generate reports summarizing the effectiveness of relief efforts for presentations and archiving purposes.
+Users will be able to generate reports summarizing the efforts made in relief efforts.
 OFFLINE SUPPORT
 Users will be able to export and print maps for offline support in relief zones.
 CUSTOM ACCESS

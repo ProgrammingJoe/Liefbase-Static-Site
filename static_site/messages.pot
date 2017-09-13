@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-09-12 22:47-0700\n"
+"POT-Creation-Date: 2017-09-13 13:43-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -134,11 +134,11 @@ msgstr ""
 msgid "Please contact us with any questions, concerns, or feature requests."
 msgstr ""
 
-#: templates/donate.html:23
+#: templates/donate.html:24
 msgid "We appreciate your support!"
 msgstr ""
 
-#: templates/donate.html:24
+#: templates/donate.html:25
 msgid ""
 "Liefbase is developing platforms to help communities and organizations "
 "around the world work together in times of stress. We believe that rather"
@@ -148,17 +148,17 @@ msgid ""
 "your donations help keep the Liefbase community growing and cohesive."
 msgstr ""
 
-#: templates/donate.html:25
+#: templates/donate.html:26
 msgid ""
 "Rest assured that the donations you make today may help get resources to "
 "people in need in times of stress."
 msgstr ""
 
-#: templates/donate.html:27
+#: templates/donate.html:28
 msgid "Thanks,"
 msgstr ""
 
-#: templates/donate.html:29
+#: templates/donate.html:30
 msgid "The Liefbase Team"
 msgstr ""
 
@@ -172,7 +172,7 @@ msgid ""
 "humanitarian relief efforts."
 msgstr ""
 
-#: templates/index.html:26 templates/index.html:116
+#: templates/index.html:26 templates/index.html:123
 msgid "REQUEST A DEMO"
 msgstr ""
 
@@ -193,9 +193,8 @@ msgstr ""
 
 #: templates/index.html:43
 msgid ""
-"Users can choose what layers or pieces of information they would like to "
-"see. Information can be filtered by category, organization, or specific "
-"resources or hazards."
+"Users can easily choose what layers or pieces of information they would "
+"like to see at any given moment."
 msgstr ""
 
 #: templates/index.html:49
@@ -204,8 +203,8 @@ msgstr ""
 
 #: templates/index.html:50
 msgid ""
-"Users can customize their experience by creating and modifying map "
-"information, map layers, and saving past searches."
+"Users can customize their experience by creating custom map information, "
+"saving past searches, and more."
 msgstr ""
 
 #: templates/index.html:56
@@ -218,74 +217,83 @@ msgid ""
 "information."
 msgstr ""
 
-#: templates/index.html:62
+#: templates/index.html:63
+msgid "PUBLIC INPUT"
+msgstr ""
+
+#: templates/index.html:64
+msgid ""
+"The public can supply information and support to others before and after "
+"organizational help arrives."
+msgstr ""
+
+#: templates/index.html:69
 msgid "Coming Soon"
 msgstr ""
 
-#: templates/index.html:67
-msgid "SHARED ENVIRONMENTS"
-msgstr ""
-
-#: templates/index.html:68
-msgid ""
-"Organizations will be able to manage their own maps or choose to share "
-"maps and map information with other stakeholders for collaboration "
-"purposes."
-msgstr ""
-
 #: templates/index.html:74
-msgid "REPORT GENERATION"
+msgid "SHARED ENVIRONMENTS"
 msgstr ""
 
 #: templates/index.html:75
 msgid ""
-"Users will be able to generate reports summarizing the effectiveness of "
-"relief efforts for presentations and archiving purposes."
+"Organizations will be able to manage their own maps or choose to share "
+"and collaborate with other stakeholders."
 msgstr ""
 
 #: templates/index.html:81
-msgid "OFFLINE SUPPORT"
+msgid "REPORT GENERATION"
 msgstr ""
 
 #: templates/index.html:82
+msgid ""
+"Users will be able to generate reports summarizing the efforts made in "
+"relief efforts."
+msgstr ""
+
+#: templates/index.html:88
+msgid "OFFLINE SUPPORT"
+msgstr ""
+
+#: templates/index.html:89
 msgid ""
 "Users will be able to export and print maps for offline support in relief"
 " zones."
 msgstr ""
 
-#: templates/index.html:88
+#: templates/index.html:95
 msgid "CUSTOM ACCESS"
 msgstr ""
 
-#: templates/index.html:89
+#: templates/index.html:96
 msgid ""
 "Users will be able to assign custom viewing and editing access to "
 "individuals, teams and organizations."
 msgstr ""
 
-#: templates/index.html:95
+#: templates/index.html:102
 msgid "LEGACY IMPORTS"
 msgstr ""
 
-#: templates/index.html:96
+#: templates/index.html:103
 msgid "Organizations will be able to import their pre-existing map data."
 msgstr ""
 
-#: templates/index.html:101
+#: templates/index.html:108
 msgid "Future Plans"
 msgstr ""
 
-#: templates/index.html:104
+#: templates/index.html:111
 msgid ""
 "In the near future we would like to begin development on mobile "
 "applications for offline support, data collection, and communication."
 msgstr ""
 
-#: templates/index.html:110
+#: templates/index.html:117
 msgid "Request a Demo"
 msgstr ""
 
-#: templates/index.html:112
+#: templates/index.html:119
 msgid ""
 "Developing a platform that meets the needs and requirements of our "
 "customers is our number one priority. Contact us for a demo so that we "
@@ -293,6 +301,7 @@ msgid ""
 "platform."
 msgstr ""
 
-#: templates/index.html:115
+#: templates/index.html:122
 msgid "Ready for a Demo?"
 msgstr ""
+
