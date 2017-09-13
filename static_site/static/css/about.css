@@ -1,15 +1,6 @@
-.about-body {
-  position: relative;
-  padding: 0 8%;
-}
-
 .profile-container {
   overflow: hidden;
   text-align: center;
-}
-.profile {
-  display: inline-block;
-  width: 33%;
 }
 .profile-inner {
   min-width: 283px;
@@ -41,16 +32,6 @@
   text-align: left;
 }
 
-.team-intro-container {
-  padding: 70px 160px 70px 0;
-}
-
-.value:nth-child(even) {
-  margin-right: 40%;
-}
-.value:nth-child(odd) {
-  margin-left: 40%;
-}
 .value {
   padding: 30px;
   background-color: white;
@@ -63,4 +44,43 @@
 }
 .value-title {
   display: inline-block;
+}
+
+@media only screen and (min-width : 902px) {
+  .value:nth-child(even) {
+    margin-right: 40%;
+  }
+  .value:nth-child(odd) {
+    margin-left: 40%;
+  }
+  .profile {
+    display: inline-block;
+    width: 33%;
+  }
+}
+
+@media only screen and (min-width: 580px) and (max-width : 901px) {
+  .value:nth-child(even) {
+    margin-right: 20%;
+  }
+  .value:nth-child(odd) {
+    margin-left: 20%;
+  }
+  .profile {
+    display: inline-block;
+    width: 49%;
+  }
+}
+
+@media only screen and (max-width : 579px) {
+  .value:nth-child(even) {
+    margin-right: 0;
+  }
+  .value:nth-child(odd) {
+    margin-left: 0;
+  }
+  .profile {
+    display: inline-block;
+    width: 100%;
+  }
 }
