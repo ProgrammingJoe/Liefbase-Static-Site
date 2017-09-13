@@ -23,6 +23,7 @@
   height: 80px;
   border-radius: 40px;
   float: left;
+  box-shadow: 0 1px 6px rgba(105, 105, 105, .25);
 }
 .profile-text {
   float: left;

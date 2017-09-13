@@ -1,7 +1,7 @@
 body {
   margin: 0;
   overflow-x: hidden;
-  background-color: #E5E5E5;
+  background-color: #FBFBFB;
 }
 
 input {
@@ -43,22 +43,31 @@ input {
 }
 
 .slogan {
-  position: absolute;
-  top: 40%;
-}
-.slogan-sub {
-  position: absolute;
-  top: 46%;
+  position: relative;
+  margin-top: 18%;
 }
 .demo-signup {
-  position: absolute;
+  position: relative;
+  display: inline-block;
   top: 54%;
   background-color: white;
   padding: 12px;
   border-radius: 3px;
 }
-.landing-body, .products-body, .demo-container {
-  padding: 0 5%;
+.landing-body,
+.products-body,
+.demo-container,
+.footer,
+.about-body,
+.contact-body {
+  width: 90%;
+  max-width: 900px;
+  padding: 0 5% 0 5%;
+  margin: auto;
+}
+
+.landing-body p {
+  padding-right: 30%;
 }
 
 .header-on {
