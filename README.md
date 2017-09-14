@@ -11,5 +11,6 @@
 * Install python dependencies
   * `$ pip3 install -r requirements.txt`
 * Export and run project
-  * `$ export FLASK_APP=app.py`
+  * `$ cd static_site`
+  * `$ export FLASK_APP=__init__.py`
   * `$ flask run`
