@@ -12,7 +12,7 @@
   margin: 0 0 16px 0;
 }
 .contact-form input {
-  height: 32px;
+  height: 36px;
 }
 .contact-form input#submit {
   color: white;
@@ -24,4 +24,8 @@
 }
 .contact-form textarea {
   height: 260px;
+}
+.contact-form label {
+  position: relative;
+  bottom: 4px;
 }

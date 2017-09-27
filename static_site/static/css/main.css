@@ -3,6 +3,11 @@ body {
   overflow-x: hidden;
   background-color: #FBFBFB;
 }
+body > :first-child {
+  position: relative;
+  box-shadow: 0 4px 31px rgba(179, 179, 179, .35);
+  padding-bottom: 60px;
+}
 
 input {
   padding: 0 3px;
@@ -101,9 +106,8 @@ input {
 }
 
 .demo-block {
-  height: 250px;
   width: 100%;
-  max-width: 450px;
+  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 60px;
@@ -115,7 +119,12 @@ input {
 }
 .demo-ready {
   position: relative;
-  top: 50px;
+  top: 30px;
+}
+.demo-body {
+  position: relative;
+  top: 15px;
+  padding: 0 15px;
 }
 .demo-signup-bot {
   padding: 12px;
@@ -123,9 +132,44 @@ input {
   display: inline-block;
   position: relative;
   background-color: #2159F9;
-  top: 60px;
+  margin: 30px 0;
 }
 
+.footer-container {
+  background-image: url('../img/footer-mask.svg');
+}
+.footer {
+  padding: 80px 0;
+}
+.footer-logo {
+  width: 100px;
+  height: 100px;
+}
+.footer-links {
+  float: right;
+}
+.footer-link-column {
+  display: inline-block;
+  padding: 0 50px;
+  vertical-align: top;
+}
+.footer-link-column:last-child {
+  padding: 0 0 0 50px;
+}
+.footer-link {
+  display: block;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  padding: 40px 0 0 0;
+}
+.footer-copyrights {
+  float: left;
+}
+.footer-socials {
+  float: right;
+}
 
 
 @media only screen and (min-width : 902px) {
@@ -179,5 +223,11 @@ input {
   .slogan {
     position: relative;
     margin-top: 25%;
+  }
+
+  .header,
+  .sub-header,
+  .section-header {
+    text-align: center;
   }
 }

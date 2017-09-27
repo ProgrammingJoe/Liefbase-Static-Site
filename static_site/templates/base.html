@@ -15,6 +15,7 @@
     {% endblock %}
     <link rel="shortcut icon" href="">
 
+    <script src="{{ url_for('static', filename='js/widgets.js') }}"></script>
     <script src="{{ url_for('static', filename='js/feather.min.js') }}"></script>
     {% block extrajs %}
     {% endblock %}
@@ -33,8 +34,33 @@
 
     {% endblock %}
 
-    <div class="footer">
-      Foot
+    <div class="footer-container">
+      <div class="footer">
+        <div class="footer-top">
+          <img class="footer-logo" src="">
+          <div class="footer-links">
+            <div class="footer-link-column">
+              <a class="footer-link standard-text-lg" href="/">Product</a>
+              <a class="footer-link standard-text-lg" href="{{ url_for('donate') }}">Donate</a>
+            </div>
+            <div class="footer-link-column">
+              <a class="footer-link standard-text-lg" href="{{ url_for('about') }}">About</a>
+              <a class="footer-link standard-text-lg" href="{{ url_for('contact', demo=0) }}">Contact</a>
+              <a class="footer-link standard-text-lg" href="{{ url_for('contact', demo=1) }}">Request a Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-copyrights">
+            <p class="footer-copyright sub-title-lg">&copy; Liefbase Inc</p>
+          </div>
+          <div class="footer-socials">
+            <img class="footer-social" src="../static/img/twitter.svg">
+            <img class="footer-social" src="">
+            <img class="footer-social" src="">
+          </div>
+        </div>
+      </div>
     </div>
 
     <script>

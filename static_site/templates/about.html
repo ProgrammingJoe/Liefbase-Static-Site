@@ -5,135 +5,142 @@
 {% endblock %}
 
 {% block content %}
-  {% block header %}
-  <div class="header">
-    <div class="header-left">
-      <a href="/"><p class="header-branding">liefbase</p></a>
-    </div>
+  <div>
+    {% block header %}
+    <div class="header">
+      <div class="header-left">
+        <a href="/"><p class="header-branding">liefbase</p></a>
+      </div>
 
-    <div class="header-right">
-      <a href="{{ url_for('donate') }}"><p class="header-option">{{ _('Donate') }}</p></a>
-      <a href="{{ url_for('about') }}"><p class="header-option header-on">{{ _('About') }}</p></a>
-      <a href="{{ url_for('contact', demo=0) }}"><p class="header-option">{{ _('Contact') }}</p></a>
+      <div class="header-right">
+        <a href="{{ url_for('about') }}"><p class="header-option">{{ _('About') }}</p></a>
+        <a href="{{ url_for('donate') }}"><p class="header-option">{{ _('Donate') }}</p></a>
+      </div>
     </div>
+    {% endblock %}
+
+    <div class="about-body">
+      <div class="team-intro-container">
+        <p class="team-intro-header header">{{ _('Bringing everyone together, for effective relief efforts') }}</p>
+        <p class="team-intro-body sub-header">{{ _('Liefbase’s mission is to create dependable, secure, and user friendly platforms to help relief organizations, governments, and the public better collaborate during relief efforts.') }}
+        </p>
+      </div>
+
+      <div class="profile-container">
+        <p class="profile-container-title section-header">{{ _('Our team') }}</p>
+        <div class="profile-inner-container">
+          <div class="profile">
+            <div class="profile-inner">
+              <img class="profile-image" src="static/img/joe.png">
+              <div class="profile-text">
+                <p class="profile-name title">Joe Czepil</p>
+                <p class="profile-title sub-title"><span class="team-lead">{{ _('Team lead') }}</span><span class="lead">{{ _('Lead') }}</span>{{ _(' & Developer') }}</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="profile">
+            <div class="profile-inner">
+              <img class="profile-image" src="static/img/konrad.jpg">
+              <div class="profile-text">
+                <p class="profile-name title">Konrad Schultz</p>
+                <p class="profile-title sub-title">{{ _('Developer & Finances') }}</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="profile">
+            <div class="profile-inner">
+              <img class="profile-image" src="static/img/dustin.png">
+              <div class="profile-text">
+                <p class="profile-name title">Dustin Bolink</p>
+                <p class="profile-title sub-title">{{ _('Developer') }}</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="profile">
+            <div class="profile-inner">
+              <img class="profile-image" src="static/img/cam.png">
+              <div class="profile-text">
+                <p class="profile-name title">Cam Long</p>
+                <p class="profile-title sub-title">{{ _('Developer') }}</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="profile">
+            <div class="profile-inner">
+              <img class="profile-image" src="static/img/jonah.png">
+              <div class="profile-text">
+                <p class="profile-name title">Jonah Rankin</p>
+                <p class="profile-title sub-title">{{ _('Developer') }}</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="profile">
+            <div class="profile-inner">
+              <img class="profile-image" src="static/img/curtis.png">
+              <div class="profile-text">
+                <p class="profile-name title">Curtis St. Pierre</p>
+                <p class="profile-title sub-title">{{ _('Developer') }}</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="profile">
+            <div class="profile-inner">
+              <img class="profile-image" src="static/img/spencer.png">
+              <div class="profile-text">
+                <p class="profile-name title">Spencer Marsh</p>
+                <p class="profile-title sub-title">{{ _('Designer') }}</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="profile">
+            <div class="profile-inner">
+              <img class="profile-image" src="static/img/solenn.jpg">
+              <div class="profile-text">
+                <p class="profile-name title">Solenn Madevon</p>
+                <p class="profile-title sub-title">{{ _('Technical Writer & Marketing') }}</p>
+              </div>
+            </div>
+          </div>
+        </div> <!-- End of profile-inner-container -->
+      </div> <!-- End of profile-container -->
+
+      <div class="values-container">
+        <p class="values-title section-header">{{ _('Some things that matter to us') }}</p>
+
+        <div class="value">
+          <i class="value-image" data-feather="check-circle"></i>
+          <p class="value-title">{{ _('Transparency and Accountability') }}</p>
+          <p class="value-body">{{ _('We believe that transparency and accountability between disaster relief organizations, government organizations, and the public will save time and resources, promote stronger relationships, and foster collaboration.') }}
+          </p>
+        </div>
+
+        <div class="value">
+          <i class="value-image" data-feather="lock"></i>
+          <p class="value-title">{{ _('Integrity and Security') }}</p>
+          <p class="value-body">{{ _('We offer secure and confidential platforms that provide organizations and the public with assurance that their data and personal information will be safeguarded against loss or theft, unauthorized access, alteration or disclosure.') }}
+          </p>
+        </div>
+
+        <div class="value">
+          <i class="value-image" data-feather="heart"></i>
+          <p class="value-title">{{ _('Impartiality and Neutrality') }}</p>
+          <p class="value-body">{{ _('Our goal is developing tools accessible to all organizations and persons during relief efforts. We are committed to working with all people and organizations fairly, without any discrimination on the basis of race, colour, ancestry, nationality, religion, physical or mental disability, age, sex, gender identity, or sexual orientation.') }}
+          </p>
+        </div>
+      </div>
+
+      <div class="get-in-touch-container">
+        <p class="contact-title section-header">{{ _('Ready to get in touch?') }}</p>
+        <p class="contact-description sub-header">{{ _('Let us know if you have any questions or comments!') }}</p>
+        <a href="{{ url_for('contact', demo=0) }}"><div class="request-a-demo button-intra">{{ _('CONTACT US') }}</div></a>
+      </div>
+    </div> <!-- End of about-body -->
   </div>
-  {% endblock %}
-
-  <div class="about-body">
-    <div class="team-intro-container">
-      <p class="team-intro-header header">{{ _('Bringing everyone together, for effective relief efforts') }}</p>
-      <p class="team-intro-body sub-header">{{ _('Liefbase’s mission is to create dependable, secure, and user friendly platforms to help relief organizations, governments, and the public better collaborate during relief efforts.') }}
-      </p>
-    </div>
-
-    <div class="profile-container">
-      <p class="profile-container-title section-header">{{ _('Our team') }}</p>
-      <div class="profile-inner-container">
-        <div class="profile">
-          <div class="profile-inner">
-            <img class="profile-image" src="static/img/joe.png">
-            <div class="profile-text">
-              <p class="profile-name title">Joe Czepil</p>
-              <p class="profile-title sub-title">{{ _('Team lead & Developer') }}</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="profile">
-          <div class="profile-inner">
-            <img class="profile-image" src="static/img/konrad.jpg">
-            <div class="profile-text">
-              <p class="profile-name title">Konrad Schultz</p>
-              <p class="profile-title sub-title">{{ _('Developer & Finances') }}</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="profile">
-          <div class="profile-inner">
-            <img class="profile-image" src="static/img/dustin.png">
-            <div class="profile-text">
-              <p class="profile-name title">Dustin Bolink</p>
-              <p class="profile-title sub-title">{{ _('Developer') }}</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="profile">
-          <div class="profile-inner">
-            <img class="profile-image" src="static/img/cam.png">
-            <div class="profile-text">
-              <p class="profile-name title">Cam Long</p>
-              <p class="profile-title sub-title">{{ _('Developer') }}</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="profile">
-          <div class="profile-inner">
-            <img class="profile-image" src="static/img/jonah.png">
-            <div class="profile-text">
-              <p class="profile-name title">Jonah Rankin</p>
-              <p class="profile-title sub-title">{{ _('Developer') }}</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="profile">
-          <div class="profile-inner">
-            <img class="profile-image" src="static/img/curtis.png">
-            <div class="profile-text">
-              <p class="profile-name title">Curtis St. Pierre</p>
-              <p class="profile-title sub-title">{{ _('Developer') }}</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="profile">
-          <div class="profile-inner">
-            <img class="profile-image" src="static/img/spencer.png">
-            <div class="profile-text">
-              <p class="profile-name title">Spencer Marsh</p>
-              <p class="profile-title sub-title">{{ _('Designer') }}</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="profile">
-          <div class="profile-inner">
-            <img class="profile-image" src="static/img/solenn.jpg">
-            <div class="profile-text">
-              <p class="profile-name title">Solenn Madevon</p>
-              <p class="profile-title sub-title">{{ _('Technical Writer & Marketing') }}</p>
-            </div>
-          </div>
-        </div>
-      </div> <!-- End of profile-inner-container -->
-    </div> <!-- End of profile-container -->
-
-    <div class="values-container">
-      <p class="values-title section-header">{{ _('Some things that matter to us') }}</p>
-
-      <div class="value">
-        <i class="value-image" data-feather="check-circle"></i>
-        <p class="value-title">{{ _('Transparency and Accountability') }}</p>
-        <p class="value-body">{{ _('We believe that transparency and accountability between disaster relief organizations, government organizations, and the public will save time and resources, promote stronger relationships, and foster collaboration.') }}
-        </p>
-      </div>
-
-      <div class="value">
-        <i class="value-image" data-feather="lock"></i>
-        <p class="value-title">{{ _('Integrity and Security') }}</p>
-        <p class="value-body">{{ _('We offer secure and confidential platforms that provide organizations and the public with assurance that their data and personal information will be safeguarded against loss or theft, unauthorized access, alteration or disclosure.') }}
-        </p>
-      </div>
-
-      <div class="value">
-        <i class="value-image" data-feather="heart"></i>
-        <p class="value-title">{{ _('Impartiality and Neutrality') }}</p>
-        <p class="value-body">{{ _('Our goal is developing tools accessible to all organizations and persons during relief efforts. We are committed to working with all people and organizations fairly, without any discrimination on the basis of race, colour, ancestry, nationality, religion, physical or mental disability, age, sex, gender identity, or sexual orientation.') }}
-        </p>
-      </div>
-    </div>
-  </div> <!-- End of about-body -->
 {% endblock %}

@@ -74,15 +74,31 @@
   color: #282828;
   font-size: 18px;
 }
+.input-label,
+label {
+  font-family: 'Roboto-light';
+  color: #282828;
+  font-size: 16px;
+}
 .sub-title {
   font-family: 'Roboto-light';
   color: #868686;
   font-size: 15px;
 }
+.sub-title-lg {
+  font-family: 'Roboto-light';
+  color: #868686;
+  font-size: 16px;
+}
 .standard-text {
   font-family: 'Roboto-light';
   color: #000000;
   font-size: 15px;
+}
+.standard-text-lg {
+  font-family: 'Roboto-light';
+  color: #000000;
+  font-size: 16px;
 }
 .button {
   font-family: 'Roboto-medium';

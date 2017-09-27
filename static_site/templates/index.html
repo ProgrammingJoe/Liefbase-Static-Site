@@ -12,15 +12,14 @@
         </div>
 
         <div class="header-right">
-          <a href="{{ url_for('donate') }}"><p class="header-option header-landing">{{ _('Donate') }}</p></a>
           <a href="{{ url_for('about') }}"><p class="header-option header-landing">{{ _('About') }}</p></a>
-          <a href="{{ url_for('contact', demo=0) }}"><p class="header-option header-landing">{{ _('Contact') }}</p></a>
+          <a href="{{ url_for('donate') }}"><p class="header-option header-landing">{{ _('Donate') }}</p></a>
         </div>
       </div>
       {% endblock %}
 
       <div class="landing-body">
-        <p class="slogan">{{ _('Your hub for managing relief efforts') }}</p>
+        <p class="slogan">{{ _('Your headquarters for managing relief efforts') }}</p>
         <p class="slogan-sub">{{ _('A communication and collaboration platform for disaster relief and humanitarian relief efforts.') }}</p>
 
         <a href="{{ url_for('contact', demo=1) }}"><div class="demo-signup button">{{ _('REQUEST A DEMO') }}</div></a>
@@ -117,12 +116,9 @@
   </div> <!-- end of products body -->
 
   <div class="demo-container">
-    <p class="demo-title section-header">{{ _('Request a Demo') }}</p>
-
-    <p class="demo-body sub-header">{{ _('Developing a platform that meets the needs and requirements of our customers is our number one priority. Contact us for a demo so that we can let you know what our plans are and you can help us shape the future platform.') }}</p>
-
     <div class="demo-block">
       <p class="demo-ready section-header">{{ _('Ready for a Demo?') }}</p>
+      <p class="demo-body sub-header">{{ _('Developing a platform that meets the needs and requirements of our customers is our number one priority. Contact us for a demo so that we can let you know what our plans are and you can help us shape the future platform.') }}</p>
       <a href="{{ url_for('contact', demo=1) }}"><div class="demo-signup-bot button-intra">{{ _('REQUEST A DEMO') }}</div></a>
     </div>
   </div>
