@@ -26,6 +26,16 @@
   display: inline-block;
 }
 
+.value-image {
+  display: inline-block;
+  margin-bottom: -5px;
+  margin-right: 7px;
+}
+
+.profile-container-title {
+  text-align: left;
+}
+
 .value {
   padding: 30px;
   background-color: white;
@@ -36,11 +46,13 @@
 .value-image {
   color: #2159F9;
 }
+.value-title {
+  display: inline-block;
+}
 
 .request-a-demo {
   padding: 12px;
   border-radius: 3px;
-  display: inline-block;
   position: relative;
   background-color: #2159F9;
 }
@@ -64,22 +76,12 @@
     float: left;
   }
 
-  .value-image {
-    display: inline-block;
-    margin-bottom: -5px;
-    margin-right: 2px;
-  }
-  .value-title {
-    display: inline-block;
-  }
-
   .lead {
     display: none;
   }
 
-
-  .profile-container-title {
-    text-align: left;
+  .request-a-demo {
+    display: inline-block;
   }
 }
 
@@ -102,21 +104,12 @@
     float: left;
   }
 
-  .value-image {
-    display: inline-block;
-    margin-bottom: -5px;
-    margin-right: 2px;
-  }
-  .value-title {
-    display: inline-block;
-  }
-
   .lead {
     display: none;
   }
 
-  .profile-container-title {
-    text-align: left;
+  .request-a-demo {
+    display: inline-block;
   }
 }
 
@@ -134,15 +127,11 @@
     text-align: center;
   }
 
-  .value-image {
-    display: block;
-    margin: auto;
-  }
-  .value-title {
-    text-align: center;
-  }
-
   .team-lead {
     display: none;
+  }
+
+  .request-a-demo {
+    text-align: center;
   }
 }
