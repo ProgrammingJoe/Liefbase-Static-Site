@@ -17,6 +17,11 @@ a {
   text-decoration: none;
 }
 
+.body-no-scroll {
+  height: 100vh;
+  overflow: hidden;
+}
+
 .landing-body,
 .products-body,
 .demo-container,
@@ -46,6 +51,12 @@ a {
   clip-path: polygon(0 0, 1600px 0, 1600px 100%, 0 93%);
 }
 
+.header-landing .header-option,
+.header-landing .header-branding,
+.header-landing #hamburger-lines,
+.header-landing #hamburger-x {
+  color: white;
+}
 .header-right a:last-child p {
   padding: 0 0 0 5px;
 }
@@ -155,6 +166,32 @@ a {
   display: block;
 }
 
+#hamburger-menu {
+  position: absolute;
+  top: 66px;
+  height: 100vh;
+  width: 100vw;
+  left: 100vw;
+  z-index: 1;
+  background-color: white;
+  box-shadow: 0 1px 6px rgba(105, 105, 105, .25);
+  display: none;
+}
+#hamburger-menu a {
+  display: block;
+  padding: 0 5%;
+}
+#hamburger-x {
+  display: none;
+}
+#hamburger-x,
+#hamburger-lines {
+  color: #2159F9;
+}
+#hamburger-menu .header-option {
+  color: #2159F9;
+}
+
 @media only screen and (min-width : 902px) {
   .team-intro-container,
   .donate-intro-container,
@@ -195,6 +232,10 @@ a {
 
   .demo-signup-bot {
     display: inline-block;
+  }
+
+  .hamburger-toggle {
+    display: none;
   }
 }
 
@@ -238,6 +279,10 @@ a {
 
   .demo-signup-bot {
     display: inline-block;
+  }
+
+  .hamburger-toggle {
+    display: none;
   }
 }
 
@@ -285,5 +330,13 @@ a {
   .footer-copyrights,
   .footer-socials {
     text-align: center;
+  }
+
+  .header-inline-menu {
+    display: none;
+  }
+
+  .hamburger-toggle {
+    display: block;
   }
 }
