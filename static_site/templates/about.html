@@ -14,17 +14,20 @@
 
       <div class="header-right header-inline-menu">
         <a href="{{ url_for('about') }}"><p class="header-option">{{ _('About') }}</p></a>
-        <a href="{{ url_for('donate') }}"><p class="header-option">{{ _('Donate') }}</p></a>
+        <a href="{{ url_for('donate') }}"><p class="header-option header-donate">{{ _('Donate') }}</p></a>
       </div>
       <div id="hamburger-lines" class="header-right hamburger-toggle" onclick="showHamburger()">
         <i data-feather="align-justify"></i>
       </div>
-      <div id="hamburger-x" class="header-right hamburger-toggle" onclick="hideHamburger()">
-        <i data-feather="x"></i>
-      </div>
       <div id="hamburger-menu">
+        <span class="header-option">
+          <img class="hamburger-logo" src="">
+          <div id="hamburger-x" class="header-right hamburger-toggle" onclick="hideHamburger()">
+            <i data-feather="x"></i>
+          </div>
+        </span>
         <a href="{{ url_for('about') }}"><span class="header-option">{{ _('About') }}</span></a>
-        <a href="{{ url_for('donate') }}"><span class="header-option">{{ _('Donate') }}</span></a>
+        <a href="{{ url_for('donate') }}"><span class="header-option header-donate">{{ _('Donate') }}</span></a>
       </div>
     </div>
     {% endblock %}

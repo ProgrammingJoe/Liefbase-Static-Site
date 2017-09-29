@@ -9,8 +9,8 @@ function showHamburger() {
     opacity: '0'
   });
   document.getElementById('hamburger-menu').style.display = 'block';
-  document.getElementById('hamburger-x').style.display = 'block';
-  document.getElementById('hamburger-lines').style.display = 'none';
+  // document.getElementById('hamburger-x').style.display = 'block';
+  // document.getElementById('hamburger-lines').style.display = 'none';
   $('body').addClass('body-no-scroll');
 }
 
@@ -24,8 +24,8 @@ function hideHamburger() {
   $('#hamburger-lines').animate({
     opacity: '1'
   });
-  document.getElementById('hamburger-menu').style.display = 'none';
-  document.getElementById('hamburger-x').style.display = 'none';
-  document.getElementById('hamburger-lines').style.display = 'block';
+  document.getElementById('hamburger-menu').style.display = 'none'.delay(1000);
+  // document.getElementById('hamburger-x').style.display = 'none';
+  // document.getElementById('hamburger-lines').style.display = 'block';
   $('body').removeClass('body-no-scroll');
 }
