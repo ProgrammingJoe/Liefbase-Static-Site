@@ -57,11 +57,11 @@
 
       <div class="contact-form-container">
         {% for message in get_flashed_messages() %}
-          <div class="flash">{{ message }}</div>
+          <div class="error-message flash">{{ message }}</div>
         {% endfor %}
 
         {% if not success and demo %}
-          <form action="{{ url_for('contact', demo=1) }}" class="contact-form" method=post>
+          <form action="{{ url_for('contact', demo=1) }}" name="requestdemo" class="contact-form" method=post>
             {{ form2.hidden_tag() }}
 
             {{ form2.name.label }}</br>
@@ -76,7 +76,7 @@
             {{ form2.submit }}
           </form>
         {% elif not success %}
-          <form action="{{ url_for('contact', demo=1) }}" class="contact-form" method=post>
+          <form action="{{ url_for('contact', demo=0) }}" name="contact" class="contact-form" method=post>
             {{ form.hidden_tag() }}
 
             {{ form.name.label }}</br>

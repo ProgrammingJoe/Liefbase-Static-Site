@@ -1,12 +1,17 @@
-Contact
+
+All fields are required and e-mail must be valid
+About
+Donate
 Bringing everyone together, for effective relief efforts
 Liefbase’s mission is to create dependable, secure, and user friendly platforms to help relief organizations, governments, and the public better collaborate during relief efforts.
 Our team
-Team lead & Developer
+Team lead
+Lead
+ & Developer
 Developer & Finances
 Developer
 Designer
-Technical Writer & Marketing
+Technical Writer
 Some things that matter to us
 Transparency and Accountability
 We believe that transparency and accountability between disaster relief organizations, government organizations, and the public will save time and resources, promote stronger relationships, and foster collaboration.
@@ -14,6 +19,9 @@ Integrity and Security
 We offer secure and confidential platforms that provide organizations and the public with assurance that their data and personal information will be safeguarded against loss or theft, unauthorized access, alteration or disclosure.
 Impartiality and Neutrality
 Our goal is developing tools accessible to all organizations and persons during relief efforts. We are committed to working with all people and organizations fairly, without any discrimination on the basis of race, colour, ancestry, nationality, religion, physical or mental disability, age, sex, gender identity, or sexual orientation.
+Ready to get in touch?
+Let us know if you have any questions or comments!
+CONTACT US
 Demo request
 We will get back to you as soon as possible to arrange a demo.
 Please provide an explanation about who you are and why you would like a demo.
@@ -25,32 +33,28 @@ Liefbase is developing platforms to help communities and organizations around th
 Rest assured that the donations you make today may help get resources to people in need in times of stress.
 Thanks,
 The Liefbase Team
-Your hub for managing relief efforts
+Your headquarters for managing relief efforts
 A communication and collaboration platform for disaster relief and humanitarian relief efforts.
 REQUEST A DEMO
-Liefbase is a communication and collaboration platform designed to help disaster relief organizations better manage and share information during relief efforts.
 Features
-FILTERING
+Filtering
 Users can easily choose what layers or pieces of information they would like to see at any given moment.
-CUSTOMIZABLE FUNCTIONALITY
+Customizable Functionality
 Users can customize their experience by creating custom map information, saving past searches, and more.
-REAL TIME UPDATING
+Real Time Updating
 Online maps will update automatically, in real-time, as users add new information.
-PUBLIC INPUT
+Public Input
 The public can supply information and support to others before and after organizational help arrives.
-Coming Soon
-SHARED ENVIRONMENTS
-Organizations will be able to manage their own maps or choose to share and collaborate with other stakeholders.
-REPORT GENERATION
-Users will be able to generate reports summarizing the efforts made in relief efforts.
-OFFLINE SUPPORT
-Users will be able to export and print maps for offline support in relief zones.
-CUSTOM ACCESS
-Users will be able to assign custom viewing and editing access to individuals, teams and organizations.
-LEGACY IMPORTS
-Organizations will be able to import their pre-existing map data.
 Future Plans
-In the near future we would like to begin development on mobile applications for offline support, data collection, and communication.
-Request a Demo
-Developing a platform that meets the needs and requirements of our customers is our number one priority. Contact us for a demo so that we can let you know what our plans are and you can help us shape the future platform.
+Shared Environments
+Organizations will be able to manage their own maps or choose to share and collaborate with other stakeholders.
+Offline Support
+Users will be able to export and print maps for offline support in relief zones.
+Report Generation
+Users will be able to generate reports summarizing the efforts made in relief efforts.
+Legacy Imports
+Organizations will be able to import their pre-existing map data.
+Custom Access
+Users will be able to assign custom viewing and editing access to individuals, teams and organizations.
 Ready for a Demo?
+Developing a platform that meets the needs and requirements of our customers is our number one priority. Contact us for a demo so that we can let you know what our plans are and you can help us shape the future platform.

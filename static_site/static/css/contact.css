@@ -28,6 +28,10 @@
   bottom: 4px;
 }
 
+.flash {
+  margin: 0 0 10px 0;
+}
+
 @media only screen and (min-width : 902px) {
   .contact-form input#submit {
     width: 110px;

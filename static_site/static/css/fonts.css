@@ -104,3 +104,8 @@ label {
   color: white;
   font-size: 14px;
 }
+.error-message {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: red;
+}

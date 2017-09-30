@@ -193,6 +193,8 @@ a {
 }
 #hamburger-x {
   color: white;
+  top: 14px;
+  position: relative;
 }
 #hamburger-lines {
   color: #2159F9;
