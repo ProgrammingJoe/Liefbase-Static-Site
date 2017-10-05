@@ -2,4 +2,4 @@
 
 export FLASK_APP=./static_site/__init__.py
 export PYTHONPATH='./static_site/'
-flask run --port=33507
+flask run --host=0.0.0.0 --port=33507
