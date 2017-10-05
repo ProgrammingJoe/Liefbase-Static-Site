@@ -1,6 +1,7 @@
 from flask import Flask
 from flask_babel import Babel
 from flask_mail import Mail
+import sys
 
 app = Flask(__name__)
 babel = Babel(app)
@@ -17,6 +18,8 @@ app.config["MAIL_PASSWORD"] = 'Kraftpeanutbutter8'
 
 mail = Mail()
 mail.init_app(app)
+
+print (sys.path)
 
 import views
 import forms
