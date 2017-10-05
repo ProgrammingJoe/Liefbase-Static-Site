@@ -19,7 +19,6 @@ app.config["MAIL_PASSWORD"] = 'Kraftpeanutbutter8'
 mail = Mail()
 mail.init_app(app)
 
-print (sys.path)
 
 import views
 import forms
