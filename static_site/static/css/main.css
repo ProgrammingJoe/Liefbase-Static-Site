@@ -92,6 +92,14 @@ a {
   text-decoration: line-through;
 }
 
+.slogan {
+  margin-bottom: 0.8em;
+}
+    
+.slogan-sub {
+  margin-bottom: 1.8em;
+}
+
 .products-body {
   position: relative;
 }
@@ -107,10 +115,10 @@ a {
   display: table-cell;
 }
 .point-title {
-  margin: 7px 0 5px 0;
+  margin: 10px 0 5px 0;
 }
 .point-description {
-  margin: 10px 0 0 0;
+  margin: 0;
 }
 .point-icon {
   box-shadow: 0 1px 6px rgba(105, 105, 105, .25);
@@ -220,12 +228,10 @@ a {
   .slogan {
     position: relative;
     margin-top: 18%;
-    margin-bottom: 0.8em;
     max-width: 500px;
   }
     
   .slogan-sub {
-    margin-bottom: 1.8em;
     max-width: 500px;
   }
 
@@ -274,13 +280,8 @@ a {
   .slogan {
     position: relative;
     margin-top: 22%;
-    margin-bottom: 0.8em;
   }
     
- .slogan-sub {
-    margin-bottom: 1.8em;
-  }
-
   .footer {
     padding: 60px 0;
   }
