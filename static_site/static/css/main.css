@@ -50,42 +50,39 @@ a {
 }
 
 
-.header-landing .header-option,
-.header-landing .header-branding,
-.header-landing #hamburger-lines,
-.header-landing #hamburger-x {
+.navbar-landing .navbar-option,
+.navbar-landing .navbar-branding,
+.navbar-landing #hamburger-lines,
+.navbar-landing #hamburger-x {
   color: white;
 }
-.header,
-.hamburger-header {
+.navbar {
   overflow: hidden;
-}
-.hamburger-header {
   font-size: 40px;
 }
 
-.header-left p, .header-right p {
+.navbar-left p, .navbar-right p {
   display: inline-block;
 }
-.header-right {
+.navbar-right {
   float: right;
   padding: 2% 5% 0 0;
 }
-.header-left {
+.navbar-left {
   float: left;
   padding: 2% 0 0 5%;
 }
-#hamburger-menu .header-donate.header-option {
+#hamburger-menu .navbar-donate.navbar-option {
   padding: 10px 100px;
   border: 1px solid white;
   border-radius: 3px;
 }
-.header-donate.header-option {
+.navbar-donate.navbar-option {
   padding: 4px 12px;
   border-radius: 3px;
   border: 1px solid #2159F9;
 }
-.header-landing .header-donate.header-option {
+.navbar-landing .navbar-donate.navbar-option {
   border: 1px solid white;
 }
 
@@ -98,7 +95,7 @@ a {
   border-radius: 3px;
 }
 
-.header-on {
+.navbar-on {
   text-decoration: line-through;
 }
 
@@ -215,7 +212,7 @@ a {
 #hamburger-lines {
   color: #2159F9;
 }
-#hamburger-menu .header-option {
+#hamburger-menu .navbar-option {
   color: white;
 }
 .hamburger-logo {
@@ -371,7 +368,7 @@ a {
     text-align: center;
   }
 
-  .header-inline-menu {
+  .navbar-inline-menu {
     display: none;
   }
 

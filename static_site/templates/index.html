@@ -4,30 +4,30 @@
   <div>
     <div class="landing-bg">
     </div>
-    <div class="hamburger-header">
+    <div class="navbar">
       <div id="hamburger-menu">
-        <span class="header-option">
+        <span class="navbar-option">
           <img class="hamburger-logo" src="">
-          <div id="hamburger-x" class="header-right hamburger-toggle" onclick="hideHamburger()">
+          <div id="hamburger-x" class="navbar-right hamburger-toggle" onclick="hideHamburger()">
             <i data-feather="x"></i>
           </div>
         </span>
-        <a href="{{ url_for('about') }}"><span class="header-option">{{ _('About') }}</span></a>
-        <a href="{{ url_for('donate') }}"><span class="header-option header-donate">{{ _('Donate') }}</span></a>
+        <a href="{{ url_for('about') }}"><span class="navbar-option">{{ _('About') }}</span></a>
+        <a href="{{ url_for('donate') }}"><span class="navbar-option navbar-donate">{{ _('Donate') }}</span></a>
       </div>
     </div>
     <div class="landing">
-      {% block header %}
-      <div class="header header-landing">
-        <div class="header-left">
-          <a href="/"><p class="header-branding">liefbase</p></a>
+      {% block navbar %}
+      <div class="navbar navbar-landing">
+        <div class="navbar-left">
+          <a href="/"><p class="navbar-branding">liefbase</p></a>
         </div>
 
-        <div class="header-right header-inline-menu">
-          <a href="{{ url_for('about') }}"><p class="header-option">{{ _('About') }}</p></a>
-          <a href="{{ url_for('donate') }}"><p class="header-option header-donate">{{ _('Donate') }}</p></a>
+        <div class="navbar-right navbar-inline-menu">
+          <a href="{{ url_for('about') }}"><p class="navbar-option">{{ _('About') }}</p></a>
+          <a href="{{ url_for('donate') }}"><p class="navbar-option navbar-donate">{{ _('Donate') }}</p></a>
         </div>
-        <div id="hamburger-lines" class="header-right hamburger-toggle" onclick="showHamburger()">
+        <div id="hamburger-lines" class="navbar-right hamburger-toggle" onclick="showHamburger()">
           <i data-feather="align-justify"></i>
         </div>
       </div>
