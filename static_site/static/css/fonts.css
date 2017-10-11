@@ -11,10 +11,18 @@
   src: url('../font/Roboto-Medium.ttf');
 }
 
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+p {
+  margin: 0;
+}
+
 .header-branding {
   font-family: 'Roboto';
   line-height: 48px;
-  font-size: 32px;
+  font-size: 24px;
   margin: 0;
   color: #2159F9;
 }
@@ -29,9 +37,10 @@
 
 .slogan {
   font-family: 'Roboto';
-  font-size: 36px;
+  font-size: 46px;
   color: white;
 }
+
 .slogan-sub {
   font-family: 'Roboto-light';
   font-size: 28px;
