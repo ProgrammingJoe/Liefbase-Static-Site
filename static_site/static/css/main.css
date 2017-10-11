@@ -56,9 +56,14 @@ a {
 .header-landing #hamburger-x {
   color: white;
 }
-.header {
+.header,
+.hamburger-header {
   overflow: hidden;
 }
+.hamburger-header {
+  font-size: 40px;
+}
+
 .header-left p, .header-right p {
   display: inline-block;
 }
