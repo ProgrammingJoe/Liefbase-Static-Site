@@ -4,6 +4,18 @@
   <div>
     <div class="landing-bg">
     </div>
+    <div class="header">
+      <div id="hamburger-menu">
+        <span class="header-option">
+          <img class="hamburger-logo" src="">
+          <div id="hamburger-x" class="header-right hamburger-toggle" onclick="hideHamburger()">
+            <i data-feather="x"></i>
+          </div>
+        </span>
+        <a href="{{ url_for('about') }}"><span class="header-option">{{ _('About') }}</span></a>
+        <a href="{{ url_for('donate') }}"><span class="header-option header-donate">{{ _('Donate') }}</span></a>
+      </div>
+    </div>
     <div class="landing">
       {% block header %}
       <div class="header header-landing">
@@ -17,16 +29,6 @@
         </div>
         <div id="hamburger-lines" class="header-right hamburger-toggle" onclick="showHamburger()">
           <i data-feather="align-justify"></i>
-        </div>
-        <div id="hamburger-menu">
-          <span class="header-option">
-            <img class="hamburger-logo" src="">
-            <div id="hamburger-x" class="header-right hamburger-toggle" onclick="hideHamburger()">
-              <i data-feather="x"></i>
-            </div>
-          </span>
-          <a href="{{ url_for('about') }}"><span class="header-option">{{ _('About') }}</span></a>
-          <a href="{{ url_for('donate') }}"><span class="header-option header-donate">{{ _('Donate') }}</span></a>
         </div>
       </div>
       {% endblock %}
