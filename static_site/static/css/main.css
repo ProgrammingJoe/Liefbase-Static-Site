@@ -326,13 +326,8 @@ a {
   .slogan {
     position: relative;
     margin-top: 25%;
-    margin-bottom: 0.8em;
   }
     
- .slogan-sub {
-    margin-bottom: 1.8em;
-  }
-
   .demo-signup-bot {
     margin: 15px;
     display: block;
