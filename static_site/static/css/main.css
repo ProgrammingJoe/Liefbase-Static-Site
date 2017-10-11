@@ -36,20 +36,14 @@ a {
 }
 
 .landing {
-  height: 100vh;
+  height: 700px;
   width: 100vw;
   background-color: #2159F9;
   -webkit-clip-path: polygon(0 0, 1600px 0, 1600px 80%, 0 100%);
-  clip-path: polygon(0 0, 1600px 0, 1600px 80%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  padding-bottom: 100px;
 }
-.landing-bg {
-  position: absolute;
-  height: 98vh;
-  width: 100vw;
-  background-color: #658DFF;
-  -webkit-clip-path: polygon(0 0, 1600px 0, 1600px 100%, 0 93%);
-  clip-path: polygon(0 0, 1600px 0, 1600px 100%, 0 93%);
-}
+
 
 .header-landing .header-option,
 .header-landing .header-branding,
@@ -90,7 +84,7 @@ a {
   display: inline-block;
   top: 54%;
   background-color: white;
-  padding: 12px;
+  padding: 16px 20px 16px 20px;
   border-radius: 3px;
 }
 
@@ -226,6 +220,13 @@ a {
   .slogan {
     position: relative;
     margin-top: 18%;
+    margin-bottom: 0.8em;
+    max-width: 500px;
+  }
+    
+  .slogan-sub {
+    margin-bottom: 1.8em;
+    max-width: 500px;
   }
 
   .footer {
@@ -273,6 +274,11 @@ a {
   .slogan {
     position: relative;
     margin-top: 22%;
+    margin-bottom: 0.8em;
+  }
+    
+ .slogan-sub {
+    margin-bottom: 1.8em;
   }
 
   .footer {
@@ -319,6 +325,11 @@ a {
   .slogan {
     position: relative;
     margin-top: 25%;
+    margin-bottom: 0.8em;
+  }
+    
+ .slogan-sub {
+    margin-bottom: 1.8em;
   }
 
   .demo-signup-bot {
