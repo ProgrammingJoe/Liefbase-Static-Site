@@ -41,12 +41,18 @@ a {
 }
 
 .landing {
-  height: 700px;
   width: 100vw;
-  background-color: #2159F9;
-  -webkit-clip-path: polygon(0 0, 1600px 0, 1600px 80%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
   padding-bottom: 100px;
+}
+.landing-bg {
+  height: 90vh;
+  width: 400vw;
+  margin-left: -150vw;
+  position: absolute;
+  z-index: -1;
+  background-color: #2159f9;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
 }
 
 
@@ -238,7 +244,7 @@ a {
   }
   .slogan {
     position: relative;
-    margin-top: 18%;
+    margin-top: 16vh;
     max-width: 500px;
   }
 
@@ -290,7 +296,7 @@ a {
   }
   .slogan {
     position: relative;
-    margin-top: 22%;
+    margin-top: 14vh;
   }
 
   .footer {
@@ -336,7 +342,7 @@ a {
   }
   .slogan {
     position: relative;
-    margin-top: 25%;
+    margin-top: 10vh;
   }
 
   .demo-signup-bot {
