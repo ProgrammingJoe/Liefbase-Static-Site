@@ -46,8 +46,8 @@ a {
 }
 .landing-bg {
   height: 90vh;
-  width: 400vw;
-  margin-left: -150vw;
+  width: 160vw;
+  margin-left: -30vw;
   position: absolute;
   z-index: -1;
   background-color: #2159f9;
