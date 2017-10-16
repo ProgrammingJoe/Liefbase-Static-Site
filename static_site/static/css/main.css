@@ -155,7 +155,6 @@ a {
   margin-left: auto;
   margin-right: auto;
   margin-top: 80px;
-  margin-bottom: 100px;
   background-color: white;
   text-align: center;
   border-radius: 4px;
@@ -237,9 +236,11 @@ a {
 
 @media only screen and (min-width : 902px) {
   .team-intro-container,
-  .donate-intro-container,
   .contact-intro-container {
     padding: 30px 25% 40px 0;
+  }
+  .donate-intro-container {
+    padding: 30px 25% 0 0;
   }
   .landing-body p {
     padding-right: 25%;
@@ -259,7 +260,7 @@ a {
   }
 
   .footer {
-    padding: 80px 0;
+    padding: 60px 0 25px 0;
   }
   .footer-links {
     float: right;
@@ -289,9 +290,11 @@ a {
 
 @media only screen and (min-width: 580px) and (max-width : 901px) {
   .team-intro-container,
-  .donate-intro-container,
   .contact-intro-container {
     padding: 30px 0 40px 0;
+  }
+  .donate-intro-container {
+    padding: 30px 0 0 0;
   }
   .landing-body p {
     padding-right: 0;
@@ -306,7 +309,7 @@ a {
   }
 
   .footer {
-    padding: 60px 0;
+    padding: 45px 0 20px 0;
   }
   .footer-links {
     float: right;
@@ -340,9 +343,11 @@ a {
 
 @media only screen and (max-width : 579px) {
   .team-intro-container,
-  .donate-intro-container,
   .contact-intro-container {
     padding: 15px 0 20px 0;
+  }
+  .donate-intro-container {
+    padding: 15px 0 0 0;
   }
   .landing-body p {
     padding-right: 0;
@@ -356,7 +361,6 @@ a {
   }
 
   .demo-signup-bot {
-    margin: 15px;
     display: block;
     top: 20px;
   }
@@ -365,10 +369,10 @@ a {
   }
 
   .footer {
-    padding: 30px 0;
+    padding: 30px 0 20px 0;
   }
   .footer-links {
-    padding: 30px 0;
+    padding: 0 0 30px 0;
   }
   .footer-logo {
     width: 50px;
@@ -394,5 +398,19 @@ a {
     margin: auto;
     padding: 12px 0px 12px 0px;
     display: inline-block;
+  }
+
+  .landing-bg {
+    width: 240vw;
+    margin-left: -70vw;
+    height: 95vh;
+  }
+
+  .demo-block {
+    background-color: none;
+    border-radius: none;
+    box-shadow: none;
+    text-align: left;
+    padding: 0;
   }
 }
