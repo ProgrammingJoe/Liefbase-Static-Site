@@ -36,7 +36,7 @@ a {
 .donate-body {
   width: 90%;
   max-width: 900px;
-  padding: 0 5% 0 5%;
+  padding: 0 30px 0 30px;
   margin: auto;
 }
 
@@ -151,28 +151,30 @@ a {
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin-top: 80px;
+  margin-bottom: 100px;
   background-color: white;
   text-align: center;
   border-radius: 4px;
   box-shadow: 0 1px 6px rgba(105, 105, 105, .25);
+  padding: 60px 0 50px 0;
 }
-.demo-ready {
-  display: inline-block;
-  margin: 30px 0 0 0;
+
+.demo-header {
+  font-size: 40px;
+  margin-bottom: 20px;
 }
 .demo-body {
-  display: inline-block;
-  margin: 12px 0 0 0;
-  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 550px;
 }
 .demo-signup-bot {
-  padding: 12px;
+  padding: 16px 20px 16px 20px;
   border-radius: 3px;
   position: relative;
   background-color: #2159F9;
-  margin: 30px 0;
+  margin: 36px 0 16px 0;
+  box-shadow: 0px 4px 20px rgba(43, 43, 43, 0.25);
 }
 
 .footer-container {
@@ -325,6 +327,9 @@ a {
   #hamburger-lines {
     display: none;
   }
+  .demo-body {
+    max-width: 490px;
+    padding: 0 30px 0 30px;
 }
 
 @media only screen and (max-width : 579px) {
