@@ -17,6 +17,17 @@ a {
   text-decoration: none;
 }
 
+.button {
+  padding: 12px;
+  border-radius: 3px;
+}
+.button-intra {
+  background-color: #2159F9;
+}
+.button:hover {
+  opacity: 0.9;
+}
+
 .body-no-scroll {
   height: 100vh;
   overflow: hidden;
