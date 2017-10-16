@@ -66,6 +66,11 @@ p {
   font-size: 30px;
   margin: 1em 0 0.6em 0;
 }
+.demo-header {
+  font-family: 'Roboto';
+  color: #282828;
+  font-size: 40px;
+}
 .value-title {
   font-family: 'Roboto';
   color: #282828;
