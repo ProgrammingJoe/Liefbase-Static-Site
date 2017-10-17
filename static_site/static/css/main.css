@@ -34,7 +34,6 @@ a {
 .about-body,
 .contact-body,
 .donate-body {
-  width: 90%;
   max-width: 900px;
   padding: 0 30px 0 30px;
   margin: auto;
@@ -106,6 +105,7 @@ a {
   background-color: white;
   padding: 16px 20px 16px 20px;
   border-radius: 3px;
+  box-shadow: 0px 4px 20px rgba(43, 43, 43, 0.25);
 }
 
 .navbar-on {
@@ -161,7 +161,6 @@ a {
 }
 
 .demo-header {
-  font-size: 40px;
   margin-bottom: 20px;
 }
 .demo-body {
@@ -234,7 +233,7 @@ a {
   .team-intro-container,
   .donate-intro-container,
   .contact-intro-container {
-    padding: 30px 25% 40px 0;
+    padding: 70px 25% 40px 0;
   }
   .landing-body p {
     padding-right: 25%;
@@ -336,7 +335,7 @@ a {
   .team-intro-container,
   .donate-intro-container,
   .contact-intro-container {
-    padding: 15px 0 20px 0;
+    padding: 30px 0 20px 0;
   }
   .landing-body p {
     padding-right: 0;
