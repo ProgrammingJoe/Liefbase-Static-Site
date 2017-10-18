@@ -63,16 +63,16 @@
             {% endfor %}
             {{ form2.hidden_tag() }}
 
-            {{ form2.name.label }}</br>
+            <p class="form-label">{{ _('Name') }}</p></br>
             {{ form2.name }}</br>
 
-            {{ form2.email.label }}</br>
+            <p class="form-label">{{ _('Email') }}</p></br>
             {{ form2.email }}</br>
 
-            {{ form2.message.label }}</br>
+            <p class="form-label">{{ _('Message') }}</p></br>
             {{ form2.message }}</br>
 
-            <input id="submit" name="submit" type="submit" value="Send" class="button button-intra"></input>
+            <input id="submit" name="submit" type="submit" value="{{ _('Send') }}" class="button button-intra"></input>
           </form>
         {% elif not success %}
           <form action="{{ url_for('contact', demo=0) }}" name="contact" class="contact-form" method=post>
@@ -81,19 +81,19 @@
             {% endfor %}
             {{ form.hidden_tag() }}
 
-            {{ form.name.label }}</br>
+            <p class="form-label">{{ _('Name') }}</p></br>
             {{ form.name }}</br>
 
-            {{ form.email.label }}</br>
+            <p class="form-label">{{ _('Email') }}</p></br>
             {{ form.email }}</br>
 
-            {{ form.subject.label }}</br>
+            <p class="form-label">{{ _('Subject') }}</p></br>
             {{ form.subject }}</br>
 
-            {{ form.message.label }}</br>
+            <p class="form-label">{{ _('Message') }}</p></br>
             {{ form.message }}</br>
 
-            <input id="submit" name="submit" type="submit" value="Send" class="button button-intra"></input>
+            <input id="submit" name="submit" type="submit" value="{{ _('Send') }}" class="button button-intra"></input>
           </form>
         {% else %}
         {% endif %}
