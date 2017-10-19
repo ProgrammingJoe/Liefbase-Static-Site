@@ -351,8 +351,6 @@ a {
   }
   
   .landing-bg {
-    height: 90vh;
-    width: 200vw;
     max-height: 650px;
     min-height: 650px;
   }
