@@ -16,7 +16,7 @@
 .profile-text {
   position: relative;
   bottom: -6px;
-  padding: 0 0 0 8px;
+  padding: 0 0 0 12px;
 }
 
 .profile p {
@@ -37,9 +37,9 @@
 }
 
 .value {
-  padding: 30px;
+  padding: 40px;
   background-color: white;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   border-radius: 4px;
   box-shadow: 0 1px 6px rgba(105, 105, 105, .25);
 }
@@ -50,9 +50,17 @@
   display: inline-block;
 }
 
+.values-title {
+  margin-bottom: 50px;
+}
+
 .request-a-demo {
   margin-top: 15px;
   position: relative;
+}
+
+.contact-description {
+  margin-bottom: 12px;
 }
 
 @media only screen and (min-width : 902px) {
@@ -64,9 +72,19 @@
   }
   .profile {
     width: 33%;
+    padding-bottom: 30px;
   }
+    .profile-bottom {
+        padding: 0px;
+    }
+    
   .profile p {
     text-align: left;
+  }
+    
+  .profile-name {
+    padding-top: 12px;
+    padding-bottom: 2px;
   }
 
   .profile-image,
@@ -131,5 +149,7 @@
 
   .request-a-demo {
     text-align: center;
+    display: block;
+    margin-top: 30px;
   }
 }
