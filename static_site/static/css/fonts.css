@@ -68,7 +68,7 @@ p {
   margin: 70px 0 24px 0;
 }
 
-.team-intro-header {
+.intro-header {
   font-family: 'Roboto';
   color: #282828;
   font-size: 40px;
@@ -140,6 +140,12 @@ label {
   font-family: 'Roboto';
   font-size: 16px;
   color: red;
+}
+
+.form-label {
+  font-family: 'Roboto-light';
+  color: #282828;
+  font-size: 16px;
 }
 
 @media only screen and (min-width : 902px) {

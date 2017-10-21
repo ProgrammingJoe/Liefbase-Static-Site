@@ -51,21 +51,24 @@ a:hover {
 .products-body,
 .demo-container,
 .footer,
-.about-body,
 .contact-body,
+.about-body,
 .donate-body {
   max-width: 900px;
   padding: 0 30px 0 30px;
   margin: auto;
 }
 
+.about-body {
+  padding: 0 30px 0 60px;
+}
+
 .landing {
-  height: 90vh;
+  min-height: 700px;
   max-height: 700px;
   width: 100vw;
 }
 .landing-bg {
-  height: 90vh;
   width: 200vw;
   max-height: 700px;
   min-height: 700px;
@@ -138,6 +141,7 @@ a:hover {
 
 .products-body {
   position: relative;
+  padding-top: 60px;
 }
 .platform-description {
   padding: 70px 0 70px 0;
@@ -362,6 +366,9 @@ a:hover {
     max-height: 650px;
     min-height: 650px;
   }
+  .about-body {
+    padding: 0 30px 0 30px;
+  }
 }
 
 @media only screen and (max-width : 579px) {
@@ -432,8 +439,7 @@ a:hover {
   .landing-bg {
     width: 240vw;
     margin-left: -70vw;
-    height: 95vh;
-    min-height: 740px;
+    min-height: 700px;
   }
     
   body > :first-child {
@@ -442,6 +448,10 @@ a:hover {
  }
 
   .products-body {
-    padding-top: 140px;
+    padding-top: 40px;
     }
+    
+  .about-body {
+    padding: 0 30px 0 30px;
+  }
 }

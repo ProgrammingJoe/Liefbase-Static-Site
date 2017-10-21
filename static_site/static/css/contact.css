@@ -1,19 +1,23 @@
 .contact-form {
   margin: auto;
   width: 100%;
-  max-width: 600px;
+  max-width: 700px;
   display: block;
   margin-bottom: 40px;
+}
+
+.contact-form-container {
+  padding-top: 80px;
 }
 .contact-form input, .contact-form textarea {
   width: 100%;
   border-radius: 3px;
   outline: none;
-  border: 1px solid grey;
+  border: 1px solid #C7C7C7;
   margin: 0 0 6px 0;
 }
 .contact-form input {
-  height: 36px;
+  height: 50px;
 }
 .contact-form input#submit {
   height: auto;
