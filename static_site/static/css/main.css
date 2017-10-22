@@ -3,6 +3,10 @@ body {
   overflow-x: hidden;
   background-color: #FBFBFB;
 }
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 body > :first-child {
   position: relative;
   box-shadow: 0 4px 31px rgba(179, 179, 179, .35);
