@@ -78,6 +78,7 @@ a:hover {
   max-height: 700px;
   min-height: 700px;
   margin-left: -50vw;
+  margin-right: -50vw;
   position: absolute;
   z-index: -1;
   background-color: #2159f9;
