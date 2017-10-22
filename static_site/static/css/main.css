@@ -43,7 +43,8 @@ a:hover {
 }
 
 .footer-logo,
-.hamburger-logo {
+.hamburger-logo,
+.footer-socials {
   display: none;
 }
 
