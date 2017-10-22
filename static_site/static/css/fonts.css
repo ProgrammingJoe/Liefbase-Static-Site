@@ -12,7 +12,7 @@
 }
 
 body {
-    -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
 }
 
 p {
@@ -67,7 +67,7 @@ p {
   margin: 70px 0 24px 0;
 }
 
-.team-intro-header {
+.intro-header {
   font-family: 'Roboto';
   color: #282828;
   font-size: 40px;
@@ -82,6 +82,12 @@ p {
   font-family: 'Roboto';
   color: #282828;
   font-size: 20px;
+  padding-bottom: 10px;
+}
+.value-body {
+  font-family: 'Roboto';
+  color: #868686;
+  font-size: 15px;
 }
 .title {
   font-family: 'Roboto';
@@ -133,6 +139,12 @@ label {
   font-family: 'Roboto';
   font-size: 16px;
   color: red;
+}
+
+.form-label {
+  font-family: 'Roboto-light';
+  color: #282828;
+  font-size: 16px;
 }
 
 @media only screen and (min-width : 902px) {

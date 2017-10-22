@@ -17,15 +17,24 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  opacity: 0.8;
+  transition: opacity .15s ease-in-out;
+}
+
 .button {
   padding: 12px;
   border-radius: 3px;
+  padding: 16px 20px 16px 20px;
 }
 .button-intra {
   background-color: #2159F9;
+  text-align: center;
+  box-shadow: 0px 4px 20px rgba(43, 43, 43, 0.25);
 }
 .button:hover {
   opacity: 0.9;
+  transition: opacity .15s ease-in-out;
 }
 
 .body-no-scroll {
@@ -38,25 +47,32 @@ a {
   display: none;
 }
 
+.sub-header {
+  max-width: 545px;
+}
+
 .landing-body,
 .products-body,
 .demo-container,
 .footer,
-.about-body,
 .contact-body,
+.about-body,
 .donate-body {
   max-width: 900px;
   padding: 0 30px 0 30px;
   margin: auto;
 }
 
+.about-body {
+  padding: 0 30px 0 60px;
+}
+
 .landing {
-  height: 90vh;
+  min-height: 700px;
   max-height: 700px;
   width: 100vw;
 }
 .landing-bg {
-  height: 90vh;
   width: 200vw;
   max-height: 700px;
   min-height: 700px;
@@ -66,6 +82,7 @@ a {
   background-color: #2159f9;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
+  box-shadow: 0px 4px 34px rgba(77, 77, 77, 0.25);
 }
 
 
@@ -128,6 +145,7 @@ a {
 
 .products-body {
   position: relative;
+  padding-top: 60px;
 }
 .platform-description {
   padding: 70px 0 70px 0;
@@ -181,12 +199,10 @@ a {
   max-width: 550px;
 }
 .demo-signup-bot {
-  padding: 16px 20px 16px 20px;
   border-radius: 3px;
   position: relative;
   background-color: #2159F9;
   margin: 36px 0 16px 0;
-  box-shadow: 0px 4px 20px rgba(43, 43, 43, 0.25);
 }
 
 .footer-container {
@@ -247,7 +263,7 @@ a {
 @media only screen and (min-width : 902px) {
   .team-intro-container,
   .contact-intro-container {
-    padding: 70px 25% 40px 0;
+    padding: 70px 25% 20px 0;
   }
   .donate-intro-container {
     padding: 30px 25% 0 0;
@@ -301,7 +317,7 @@ a {
 @media only screen and (min-width: 580px) and (max-width : 901px) {
   .team-intro-container,
   .contact-intro-container {
-    padding: 30px 0 40px 0;
+    padding: 30px 0 20px 0;
   }
   .donate-intro-container {
     padding: 30px 0 0 0;
@@ -349,12 +365,13 @@ a {
     max-width: 490px;
     padding: 0 30px 0 30px;
   }
-  
+
   .landing-bg {
-    height: 90vh;
-    width: 200vw;
     max-height: 650px;
     min-height: 650px;
+  }
+  .about-body {
+    padding: 0 30px 0 30px;
   }
 }
 
@@ -381,7 +398,7 @@ a {
     display: block;
     margin: 34px 0 0 0;
   }
-    
+
   .demo-block {
     border-radius: none;
     box-shadow: none;
@@ -426,16 +443,19 @@ a {
   .landing-bg {
     width: 240vw;
     margin-left: -70vw;
-    height: 95vh;
-    min-height: 740px;
+    min-height: 700px;
   }
-    
+
   body > :first-child {
     position: relative;
     padding-bottom: 40px;
  }
 
   .products-body {
-    padding-top: 140px;
+    padding-top: 40px;
     }
+
+  .about-body {
+    padding: 0 30px 0 30px;
+  }
 }
