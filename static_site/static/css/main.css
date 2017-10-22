@@ -74,11 +74,10 @@ a:hover {
   width: 100vw;
 }
 .landing-bg {
-  width: 200vw;
+  width: 200%;
   max-height: 700px;
   min-height: 700px;
-  margin-left: -50vw;
-  margin-right: -50vw;
+  margin-left: -50%;
   position: absolute;
   z-index: -1;
   background-color: #2159f9;
@@ -447,8 +446,8 @@ a:hover {
   }
 
   .landing-bg {
-    width: 240vw;
-    margin-left: -70vw;
+    width: 240%;
+    margin-left: -70%;
     min-height: 700px;
   }
 
