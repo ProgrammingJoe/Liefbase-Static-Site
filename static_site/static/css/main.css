@@ -236,7 +236,6 @@ a:hover {
   left: 100vw;
   z-index: 1;
   background-color: #2159F9;
-  box-shadow: 0 1px 6px rgba(105, 105, 105, .25);
   display: none;
 }
 #hamburger-menu a {

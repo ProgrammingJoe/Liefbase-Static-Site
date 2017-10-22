@@ -60,6 +60,11 @@ p {
   color: #868686;
   font-size: 18px;
 }
+.body-text {
+  font-family: 'Roboto-light';
+  color: #868686;
+  font-size: 18px;
+}
 .section-header {
   font-family: 'Roboto';
   color: #282828;
