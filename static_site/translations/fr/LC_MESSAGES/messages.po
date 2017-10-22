@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-09-30 10:29-0700\n"
+"POT-Creation-Date: 2017-10-22 10:50-0700\n"
 "PO-Revision-Date: 2017-09-12 21:09-0700\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -20,23 +20,23 @@ msgstr ""
 
 #: views.py:29
 msgid "All fields are required and e-mail must be valid"
-msgstr ""
+msgstr "Tous les champs sont obligatoires et votre adresse email doit être valide"
 
-#: templates/about.html:16 templates/about.html:29 templates/contact.html:16
-#: templates/contact.html:29 templates/donate.html:16 templates/donate.html:29
-#: templates/index.html:15 templates/index.html:28
+#: templates/about.html:16 templates/about.html:29 templates/base.html:53
+#: templates/contact.html:16 templates/contact.html:29 templates/donate.html:16
+#: templates/donate.html:29 templates/index.html:15 templates/index.html:27
 msgid "About"
-msgstr ""
+msgstr "A propos de nous"
 
-#: templates/about.html:17 templates/about.html:30 templates/contact.html:17
-#: templates/contact.html:30 templates/donate.html:17 templates/donate.html:30
-#: templates/index.html:16 templates/index.html:29
+#: templates/about.html:17 templates/about.html:30 templates/base.html:50
+#: templates/contact.html:17 templates/contact.html:30 templates/donate.html:17
+#: templates/donate.html:30 templates/index.html:16 templates/index.html:28
 msgid "Donate"
-msgstr ""
+msgstr "Faites un don"
 
 #: templates/about.html:37
 msgid "Bringing everyone together, for effective relief efforts"
-msgstr ""
+msgstr "Travailler ensemble, pour des efforts de secours plus efficaces"
 
 #: templates/about.html:38
 msgid ""
@@ -44,47 +44,51 @@ msgid ""
 "platforms to help relief organizations, governments, and the public "
 "better collaborate during relief efforts."
 msgstr ""
+"La mission principale de Liefbase est la création d’un logiciel fiable, "
+"sécuritaire et facile à utiliser avec pour but d’aider les organisations "
+"de secours humanitaires, les agences gouvernementales et le public à "
+"mieux collaborer pendant les secours humanitaires."
 
 #: templates/about.html:43
 msgid "Our team"
-msgstr ""
+msgstr "Notre équipe"
 
 #: templates/about.html:50
 msgid "Team lead"
-msgstr ""
+msgstr "Chef d’équipe"
 
 #: templates/about.html:50
 msgid "Lead"
-msgstr ""
+msgstr "Chef d’équipe"
 
 #: templates/about.html:50
 msgid " & Developer"
-msgstr ""
+msgstr " & développeur"
 
 #: templates/about.html:60
 msgid "Developer & Finances"
-msgstr ""
+msgstr "Développeur et chef de finance"
 
 #: templates/about.html:70 templates/about.html:80 templates/about.html:90
 #: templates/about.html:100
 msgid "Developer"
-msgstr ""
+msgstr "développeur"
 
 #: templates/about.html:110
 msgid "Designer"
-msgstr ""
+msgstr "Graphiste"
 
 #: templates/about.html:120
 msgid "Technical Writer"
-msgstr ""
+msgstr "Rédactrice technique"
 
 #: templates/about.html:128
 msgid "Some things that matter to us"
-msgstr ""
+msgstr "Des objectifs qui nous tiennent à coeur"
 
 #: templates/about.html:131
 msgid "Transparency and Accountability"
-msgstr ""
+msgstr "Transparence et responsabilité"
 
 #: templates/about.html:132
 msgid ""
@@ -92,10 +96,15 @@ msgid ""
 "organizations, government organizations, and the public will save time "
 "and resources, promote stronger relationships, and foster collaboration."
 msgstr ""
+"Nous estimons qu’un renforcement de la responsabilité et de la "
+"transparence entre les organismes de secours, les organisations "
+"gouvernementales et le public, permettra de faire des économies de temps "
+"et de ressources, favorisera l’établissement de nouvelle relations et "
+"incitera à la collaboration."
 
 #: templates/about.html:137
 msgid "Integrity and Security"
-msgstr ""
+msgstr "Intégrité et sécurité"
 
 #: templates/about.html:138
 msgid ""
@@ -104,10 +113,13 @@ msgid ""
 "be safeguarded against loss or theft, unauthorized access, alteration or "
 "disclosure."
 msgstr ""
+"Liefbase respecte la confidentialité des données personnelles de ses "
+"donateurs et de ses clients. Nous garantissons la protection de vos "
+"données et renseignements personnels contre le vol, l’"
 
 #: templates/about.html:143
 msgid "Impartiality and Neutrality"
-msgstr ""
+msgstr "Impartialité et neutralité"
 
 #: templates/about.html:144
 msgid ""
@@ -117,48 +129,88 @@ msgid ""
 "colour, ancestry, nationality, religion, physical or mental disability, "
 "age, sex, gender identity, or sexual orientation."
 msgstr ""
+"Notre objectif est de créer des dispositifs accessibles à toute personne "
+"et organisme lors d’opération de secours humanitaire. Nous nous engageons"
+" à collaborer avec toutes personnes et organisme, sans discrimination en "
+"fonction de la race, du sexe, de l’origine, de la religion, de la "
+"nationalité, de la capacité physique ou mentale, de l’orientation "
+"sexuelle ou de l’identité sexuelle."
 
 #: templates/about.html:150
 msgid "Ready to get in touch?"
-msgstr ""
+msgstr "Alors, vous êtes prêts à nous rejoindre?"
 
-#: templates/about.html:151
-msgid "Let us know if you have any questions or comments!"
+#: templates/about.html:151 templates/contact.html:52
+msgid ""
+"Contact us with your questions, complaints, praise, feature requests, or "
+"any other comments you may have. It all helps!"
 msgstr ""
+"N’hésitez pas à nous contactez pour toute question, commentaire ou "
+"réclamation. Toutes vos suggestion sont les bienvenues!"
 
 #: templates/about.html:152
 msgid "CONTACT US"
-msgstr ""
+msgstr "CONTACTEZ-NOUS"
+
+#: templates/base.html:49
+msgid "Product"
+msgstr "Logiciel"
+
+#: templates/base.html:54
+msgid "Contact"
+msgstr "Contact"
+
+#: templates/base.html:55
+msgid "Request a Demo"
+msgstr "Demandez une démo"
 
 #: templates/contact.html:38
 msgid "Demo request"
-msgstr ""
+msgstr "Demande de démo"
 
 #: templates/contact.html:41
 msgid "We will get back to you as soon as possible to arrange a demo."
-msgstr ""
+msgstr "Nous vous contacterons dès que possible pour arranger une démo."
 
 #: templates/contact.html:43
 msgid ""
 "Please provide an explanation about who you are and why you would like a "
 "demo."
 msgstr ""
+"Veuillez indiquer qui vous êtes et la raison pour laquelle vous voulez "
+"une démo."
 
 #: templates/contact.html:47
 msgid "We would love to hear from you!"
-msgstr ""
+msgstr "N’hésitez pas à nous contacter!"
 
 #: templates/contact.html:50
 msgid "Thanks so much, we will get back to you soon."
-msgstr ""
+msgstr "Merci beaucoup, nous vous contacterons dès que possible."
 
-#: templates/contact.html:52
-msgid "Please contact us with any questions, concerns, or feature requests."
-msgstr ""
+#: templates/contact.html:66 templates/contact.html:84
+msgid "Name"
+msgstr "Nom"
+
+#: templates/contact.html:69 templates/contact.html:87
+msgid "Email"
+msgstr "Email"
+
+#: templates/contact.html:72 templates/contact.html:93
+msgid "Message"
+msgstr "Message"
+
+#: templates/contact.html:75 templates/contact.html:96
+msgid "Send"
+msgstr "Envoyez"
+
+#: templates/contact.html:90
+msgid "Subject"
+msgstr "Sujet"
 
 #: templates/donate.html:37
 msgid "We appreciate your support!"
-msgstr ""
+msgstr "Nous apprécions grandement votre soutien!"
 
 #: templates/donate.html:38
 msgid ""
@@ -169,134 +221,168 @@ msgid ""
 "need. In disasters and relief efforts we are all on the same side and "
 "your donations help keep the Liefbase community growing and cohesive."
 msgstr ""
+"Liefbase développe des logiciels pour but d’aider toute communauté et "
+"organisme à travailler ensemble en temps de crise. Au lieu de demander "
+"des frais à chaque utilisateur, surtout en temps de crises, nous "
+"préférons financer notre initiative par voie de dons."
 
-#: templates/donate.html:39
+#: templates/donate.html:40
 msgid ""
 "Rest assured that the donations you make today may help get resources to "
 "people in need in times of stress."
 msgstr ""
+"Nous vous assurons que votre don aidera à soulager les victimes de "
+"catastrophes naturelles ou humanitaires au moment où elles en ont le plus"
+" besoin."
 
-#: templates/donate.html:41
+#: templates/donate.html:45
+msgid "JOIN OUR COMMUNITY"
+msgstr "REJOIGNEZ NOTRE COMMUNAUTÉ"
+
+#: templates/donate.html:50
+msgid "DONATE"
+msgstr "FAITES UN DON"
+
+#: templates/donate.html:56
 msgid "Thanks,"
-msgstr ""
+msgstr "Merci,"
 
-#: templates/donate.html:43
+#: templates/donate.html:58
 msgid "The Liefbase Team"
-msgstr ""
+msgstr "L’équipe Liefbas"
 
-#: templates/index.html:35
+#: templates/index.html:37
 msgid "Your headquarters for managing relief efforts"
-msgstr ""
+msgstr "Votre centre de gestion des efforts de secours"
 
-#: templates/index.html:36
+#: templates/index.html:38
 msgid ""
 "A communication and collaboration platform for disaster relief and "
 "humanitarian relief efforts."
 msgstr ""
+"Une plate-forme de communication et de collaboration pour la gestion des "
+"efforts de secours."
 
-#: templates/index.html:38 templates/index.html:133
+#: templates/index.html:40 templates/index.html:133
 msgid "REQUEST A DEMO"
-msgstr ""
+msgstr "DEMANDEZ UNE DÉMO"
 
 #: templates/index.html:47
 msgid "Features"
-msgstr ""
+msgstr "Caractéristiques"
 
 #: templates/index.html:53
 msgid "Filtering"
-msgstr ""
+msgstr "Filtres"
 
 #: templates/index.html:54
 msgid ""
 "Users can easily choose what layers or pieces of information they would "
 "like to see at any given moment."
 msgstr ""
+"Les utilisateurs peuvent choisir quelle information est visible sur leur "
+"cartes et activer ou désactiver diverses couches d’information."
 
 #: templates/index.html:61
 msgid "Customizable Functionality"
-msgstr ""
+msgstr "Fonctionnalités personnalisable"
 
 #: templates/index.html:62
 msgid ""
 "Users can customize their experience by creating custom map information, "
 "saving past searches, and more."
 msgstr ""
+"Les utilisateurs peuvent personnaliser leur expérience en créant leur "
+"propre information cartographique, en accédant à leur recherches "
+"antérieures, et bien plus."
 
 #: templates/index.html:69
 msgid "Real Time Updating"
-msgstr ""
+msgstr "Mise à jour en temps réel"
 
 #: templates/index.html:70
 msgid ""
 "Online maps will update automatically, in real-time, as users add new "
 "information."
 msgstr ""
+"Les cartes en ligne se mettront à jour automatiquement, en temps réel , à"
+" mesure que les utilisateurs ajoutent de nouvelles informations."
 
 #: templates/index.html:77
 msgid "Public Input"
-msgstr ""
+msgstr "Participation public"
 
 #: templates/index.html:78
 msgid ""
 "The public can supply information and support to others before and after "
 "organizational help arrives."
 msgstr ""
+"Les membres du public peuvent donner des informations et venir en aide "
+"aux victimes locales, avant et après l’arrive de l’aide humanitaire."
 
 #: templates/index.html:83
 msgid "Future Plans"
-msgstr ""
+msgstr "Projets futurs"
 
 #: templates/index.html:89
 msgid "Shared Environments"
-msgstr ""
+msgstr "Environnements partagés"
 
 #: templates/index.html:90
 msgid ""
 "Organizations will be able to manage their own maps or choose to share "
 "and collaborate with other stakeholders."
 msgstr ""
+"Chaque organismes pourra gérer leurs propre cartes, ou choisir de les "
+"partagées et collaborer avec d’autre parties prenantes."
 
 #: templates/index.html:97
 msgid "Offline Support"
-msgstr ""
+msgstr "Support hors ligne"
 
 #: templates/index.html:98
 msgid ""
 "Users will be able to export and print maps for offline support in relief"
 " zones."
 msgstr ""
+"Les utilisateurs pourront exporter et imprimez leurs cartes pour les "
+"utiliser dans les zones de secours sans accès internet."
 
 #: templates/index.html:105
 msgid "Report Generation"
-msgstr ""
+msgstr "Production de rapports"
 
 #: templates/index.html:106
 msgid ""
 "Users will be able to generate reports summarizing the efforts made in "
 "relief efforts."
-msgstr ""
+msgstr "Les utilisateurs pourront générer des rapports résumant leurs actions."
 
 #: templates/index.html:113
 msgid "Legacy Imports"
-msgstr ""
+msgstr "Importation de données"
 
 #: templates/index.html:114
 msgid "Organizations will be able to import their pre-existing map data."
 msgstr ""
+"Les organismes pourront importer leurs données cartographiques "
+"préexistantes."
 
 #: templates/index.html:121
 msgid "Custom Access"
-msgstr ""
+msgstr "Accès personnalisé"
 
 #: templates/index.html:122
 msgid ""
 "Users will be able to assign custom viewing and editing access to "
 "individuals, teams and organizations."
 msgstr ""
+"Les utilisateurs pourront accorder des droits d’accès de visibilité ou "
+"d’édition à d’autres utilisateurs."
 
 #: templates/index.html:131
 msgid "Ready for a Demo?"
-msgstr ""
+msgstr "Prêts pour une démo?"
 
 #: templates/index.html:132
 msgid ""
@@ -305,6 +391,9 @@ msgid ""
 "can let you know what our plans are and you can help us shape the future "
 "platform."
 msgstr ""
+"Répondre aux besoins et aux exigences de notre clientèle est notre "
+"première priorité. Contactez-nous pour une démo gratuite! Testez notre "
+"plateforme et aidez nous à améliorer notre service."
 
 #~ msgid "Pricing"
 #~ msgstr ""
@@ -635,3 +724,11 @@ msgstr ""
 
 #~ msgid "Request a Demo"
 #~ msgstr ""
+
+#~ msgid "Let us know if you have any questions or comments!"
+#~ msgstr "N’hésitez pas à nous faire part de toute question ou commentaire."
+
+#~ msgid "Please contact us with any questions, concerns, or feature requests."
+#~ msgstr ""
+#~ "N’hésitez pas à nous contactez pour "
+#~ "toute question, commentaire ou suggestion."
