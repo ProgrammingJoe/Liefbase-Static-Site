@@ -43,8 +43,13 @@ a:hover {
 }
 
 .footer-logo,
-.hamburger-logo {
+.hamburger-logo,
+.footer-socials {
   display: none;
+}
+
+.sub-header {
+  max-width: 545px;
 }
 
 .landing-body,
@@ -361,7 +366,7 @@ a:hover {
     max-width: 490px;
     padding: 0 30px 0 30px;
   }
-  
+
   .landing-bg {
     max-height: 650px;
     min-height: 650px;
@@ -394,7 +399,7 @@ a:hover {
     display: block;
     margin: 34px 0 0 0;
   }
-    
+
   .demo-block {
     border-radius: none;
     box-shadow: none;
@@ -441,7 +446,7 @@ a:hover {
     margin-left: -70vw;
     min-height: 700px;
   }
-    
+
   body > :first-child {
     position: relative;
     padding-bottom: 40px;
@@ -450,7 +455,7 @@ a:hover {
   .products-body {
     padding-top: 40px;
     }
-    
+
   .about-body {
     padding: 0 30px 0 30px;
   }

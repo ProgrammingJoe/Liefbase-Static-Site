@@ -74,14 +74,15 @@
     width: 33%;
     padding-bottom: 30px;
   }
-    .profile-bottom {
-        padding: 0px;
-    }
-    
+  .profile:nth-last-child(2),
+  .profile:nth-last-child(1) {
+    padding: 0px;
+  }
+
   .profile p {
     text-align: left;
   }
-    
+
   .profile-name {
     padding-top: 12px;
     padding-bottom: 2px;
@@ -119,7 +120,7 @@
   .profile-text {
     float: left;
   }
-  
+
   .profile-text {
     padding-top: 12px;
     padding-bottom: 2px;
@@ -157,11 +158,11 @@
     display: block;
 		margin-top: 30px;
   }
-  
+
   .profile-text {
      padding: 0 0 2px 0;
   }
-    
+
   .profile-name {
      padding: 0 0 2px 0;
   }
