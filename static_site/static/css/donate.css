@@ -1,1 +1,17 @@
+.donate-button {
+  padding: 12px;
+  border-radius: 3px;
+  display: inline-block;
+  color: white;
+  background-color: #2159F9;
+}
 
+.donate-button-container {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+}
+
+.donate-buttons {
+  margin: 10px 0 15px 0;
+}

@@ -6,7 +6,7 @@ body {
 body > :first-child {
   position: relative;
   box-shadow: 0 4px 31px rgba(179, 179, 179, .35);
-  padding-bottom: 60px;
+  padding-bottom: 120px;
 }
 
 input {
@@ -17,71 +17,116 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  opacity: 0.8;
+  transition: opacity .15s ease-in-out;
+}
+
+.button {
+  padding: 12px;
+  border-radius: 3px;
+  padding: 16px 20px 16px 20px;
+}
+.button-intra {
+  background-color: #2159F9;
+  text-align: center;
+  box-shadow: 0px 4px 20px rgba(43, 43, 43, 0.25);
+}
+.button:hover {
+  opacity: 0.9;
+  transition: opacity .15s ease-in-out;
+}
+
 .body-no-scroll {
   height: 100vh;
   overflow: hidden;
+}
+
+.footer-logo,
+.hamburger-logo,
+.footer-socials {
+  display: none;
+}
+
+.sub-header {
+  max-width: 545px;
 }
 
 .landing-body,
 .products-body,
 .demo-container,
 .footer,
-.about-body,
 .contact-body,
+.about-body,
 .donate-body {
-  width: 90%;
   max-width: 900px;
-  padding: 0 5% 0 5%;
+  padding: 0 30px 0 30px;
   margin: auto;
 }
 
-.landing {
-  height: 100vh;
-  width: 100vw;
-  background-color: #2159F9;
-  -webkit-clip-path: polygon(0 0, 1600px 0, 1600px 80%, 0 100%);
-  clip-path: polygon(0 0, 1600px 0, 1600px 80%, 0 100%);
-}
-.landing-bg {
-  position: absolute;
-  height: 98vh;
-  width: 100vw;
-  background-color: #658DFF;
-  -webkit-clip-path: polygon(0 0, 1600px 0, 1600px 100%, 0 93%);
-  clip-path: polygon(0 0, 1600px 0, 1600px 100%, 0 93%);
+.about-body {
+  padding: 0 30px 0 60px;
 }
 
-.header-landing .header-option,
-.header-landing .header-branding,
-.header-landing #hamburger-lines,
-.header-landing #hamburger-x {
+.landing {
+  min-height: 700px;
+  max-height: 700px;
+  width: 100vw;
+}
+.landing-bg {
+  width: 200vw;
+  max-height: 700px;
+  min-height: 700px;
+  margin-left: -50vw;
+  position: absolute;
+  z-index: -1;
+  background-color: #2159f9;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  box-shadow: 0px 4px 34px rgba(77, 77, 77, 0.25);
+}
+
+
+.navbar-landing .navbar-option,
+.navbar-landing .navbar-branding,
+.navbar-landing #hamburger-lines,
+.navbar-landing #hamburger-x {
   color: white;
 }
-.header {
+.navbar {
   overflow: hidden;
+  font-size: 40px;
+  max-width: 1400px;
+  margin: 0 auto;
 }
-.header-left p, .header-right p {
+
+.navbar-left p, .navbar-right p {
   display: inline-block;
 }
-.header-right {
+.navbar-right {
   float: right;
-  padding: 2% 5% 0 0;
+  margin-top: 40px;
+  margin-right: 30px;
 }
-.header-left {
+.navbar-right#hamburger-x {
+  margin-top: 30px;
+}
+.navbar-left {
   float: left;
-  padding: 2% 0 0 5%;
+  margin-top: 40px;
+  margin-left: 30px;
 }
-#hamburger-menu .header-donate.header-option {
+#hamburger-menu .navbar-donate.navbar-option {
   padding: 10px 100px;
   border: 1px solid white;
   border-radius: 3px;
 }
-.header-donate.header-option {
+.navbar-donate.navbar-option {
   padding: 4px 12px;
   border-radius: 3px;
   border: 1px solid #2159F9;
 }
-.header-landing .header-donate.header-option {
+.navbar-landing .navbar-donate.navbar-option {
   border: 1px solid white;
 }
 
@@ -90,16 +135,18 @@ a {
   display: inline-block;
   top: 54%;
   background-color: white;
-  padding: 12px;
+  padding: 16px 20px 16px 20px;
   border-radius: 3px;
+  box-shadow: 0px 4px 20px rgba(43, 43, 43, 0.25);
 }
 
-.header-on {
+.navbar-on {
   text-decoration: line-through;
 }
 
 .products-body {
   position: relative;
+  padding-top: 60px;
 }
 .platform-description {
   padding: 70px 0 70px 0;
@@ -113,10 +160,10 @@ a {
   display: table-cell;
 }
 .point-title {
-  margin: 7px 0 5px 0;
+  margin: 14px 0 5px 0;
 }
 .point-description {
-  margin: 10px 0 0 0;
+  margin: 0;
 }
 .point-icon {
   box-shadow: 0 1px 6px rgba(105, 105, 105, .25);
@@ -128,37 +175,35 @@ a {
 }
 .platform-point-inner {
   margin: auto;
-  padding: 12px 15px 12px 0;
+  padding: 12px 40px 12px 0;
   display: inline-block;
 }
 
 .demo-block {
   width: 100%;
-  max-width: 600px;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin-top: 80px;
   background-color: white;
   text-align: center;
   border-radius: 4px;
   box-shadow: 0 1px 6px rgba(105, 105, 105, .25);
+  padding: 60px 0 50px 0;
 }
-.demo-ready {
-  position: relative;
-  top: 30px;
+
+.demo-header {
+  margin-bottom: 20px;
 }
 .demo-body {
-  position: relative;
-  top: 15px;
-  padding: 0 15px;
+  margin: 0 auto;
+  max-width: 550px;
 }
 .demo-signup-bot {
-  padding: 12px;
   border-radius: 3px;
   position: relative;
   background-color: #2159F9;
-  margin: 30px 0;
+  margin: 36px 0 16px 0;
 }
 
 .footer-container {
@@ -175,6 +220,10 @@ a {
 .footer-link {
   display: block;
 }
+.footer-top,
+.footer-bottom {
+  overflow: auto;
+}
 
 #hamburger-menu {
   position: absolute;
@@ -188,8 +237,10 @@ a {
 }
 #hamburger-menu a {
   display: block;
-  padding: 0 5%;
+  position: relative;
   text-align: center;
+  width: 258px;
+  margin: auto;
 }
 #hamburger-x {
   color: white;
@@ -199,7 +250,7 @@ a {
 #hamburger-lines {
   color: #2159F9;
 }
-#hamburger-menu .header-option {
+#hamburger-menu .navbar-option {
   color: white;
 }
 .hamburger-logo {
@@ -212,9 +263,11 @@ a {
 
 @media only screen and (min-width : 902px) {
   .team-intro-container,
-  .donate-intro-container,
   .contact-intro-container {
-    padding: 30px 25% 40px 0;
+    padding: 70px 25% 20px 0;
+  }
+  .donate-intro-container {
+    padding: 30px 25% 0 0;
   }
   .landing-body p {
     padding-right: 25%;
@@ -225,11 +278,16 @@ a {
   }
   .slogan {
     position: relative;
-    margin-top: 18%;
+    margin-top: 80px;
+    max-width: 500px;
+  }
+
+  .slogan-sub {
+    max-width: 500px;
   }
 
   .footer {
-    padding: 80px 0;
+    padding: 60px 0 25px 0;
   }
   .footer-links {
     float: right;
@@ -259,9 +317,11 @@ a {
 
 @media only screen and (min-width: 580px) and (max-width : 901px) {
   .team-intro-container,
-  .donate-intro-container,
   .contact-intro-container {
-    padding: 30px 0 40px 0;
+    padding: 30px 0 20px 0;
+  }
+  .donate-intro-container {
+    padding: 30px 0 0 0;
   }
   .landing-body p {
     padding-right: 0;
@@ -272,11 +332,11 @@ a {
   }
   .slogan {
     position: relative;
-    margin-top: 22%;
+    margin-top: 80px;
   }
 
   .footer {
-    padding: 60px 0;
+    padding: 45px 0 20px 0;
   }
   .footer-links {
     float: right;
@@ -302,13 +362,27 @@ a {
   #hamburger-lines {
     display: none;
   }
+  .demo-body {
+    max-width: 490px;
+    padding: 0 30px 0 30px;
+  }
+
+  .landing-bg {
+    max-height: 650px;
+    min-height: 650px;
+  }
+  .about-body {
+    padding: 0 30px 0 30px;
+  }
 }
 
 @media only screen and (max-width : 579px) {
   .team-intro-container,
-  .donate-intro-container,
   .contact-intro-container {
-    padding: 15px 0 20px 0;
+    padding: 30px 0 20px 0;
+  }
+  .donate-intro-container {
+    padding: 15px 0 0 0;
   }
   .landing-body p {
     padding-right: 0;
@@ -318,23 +392,28 @@ a {
   }
   .slogan {
     position: relative;
-    margin-top: 25%;
+    margin-top: 40px;
   }
 
   .demo-signup-bot {
-    margin: 15px;
     display: block;
-    top: 20px;
+    margin: 34px 0 0 0;
   }
+
   .demo-block {
-    padding-bottom: 30px;
+    border-radius: none;
+    box-shadow: none;
+    text-align: left;
+    padding: 0;
+    margin-top: 70px;
+    background-color: #FBFBFB;
   }
 
   .footer {
-    padding: 30px 0;
+    padding: 30px 0 20px 0;
   }
   .footer-links {
-    padding: 30px 0;
+    padding: 0 0 30px 0;
   }
   .footer-logo {
     width: 50px;
@@ -349,12 +428,35 @@ a {
   .footer-socials {
     text-align: center;
   }
-
-  .header-inline-menu {
+  .navbar-inline-menu {
     display: none;
   }
 
   .hamburger-toggle {
     display: block;
+  }
+  .platform-point-inner {
+    margin: auto;
+    padding: 12px 0px 12px 0px;
+    display: inline-block;
+  }
+
+  .landing-bg {
+    width: 240vw;
+    margin-left: -70vw;
+    min-height: 700px;
+  }
+
+  body > :first-child {
+    position: relative;
+    padding-bottom: 40px;
+ }
+
+  .products-body {
+    padding-top: 40px;
+    }
+
+  .about-body {
+    padding: 0 30px 0 30px;
   }
 }

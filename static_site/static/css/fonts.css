@@ -11,15 +11,23 @@
   src: url('../font/Roboto-Medium.ttf');
 }
 
-.header-branding {
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+p {
+  margin: 0;
+}
+
+.navbar-branding {
   font-family: 'Roboto';
   line-height: 48px;
-  font-size: 32px;
+  font-size: 24px;
   margin: 0;
   color: #2159F9;
 }
 
-.header-option {
+.navbar-option {
   font-family: 'Roboto';
   font-size: 18px;
   margin: 0;
@@ -29,19 +37,23 @@
 
 .slogan {
   font-family: 'Roboto';
-  font-size: 36px;
+  font-size: 46px;
   color: white;
+  margin-bottom: 0.8em;
 }
+
 .slogan-sub {
   font-family: 'Roboto-light';
   font-size: 28px;
   color: white;
+  margin-bottom: 1.8em;
 }
 
 .header {
   font-family: 'Roboto';
   color: #282828;
   font-size: 40px;
+  margin: 70px 0 20px 0;
 }
 .sub-header {
   font-family: 'Roboto-light';
@@ -52,11 +64,30 @@
   font-family: 'Roboto';
   color: #282828;
   font-size: 30px;
+  margin: 70px 0 24px 0;
+}
+
+.intro-header {
+  font-family: 'Roboto';
+  color: #282828;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.demo-header {
+  font-family: 'Roboto';
+  color: #282828;
+  font-size: 40px;
 }
 .value-title {
   font-family: 'Roboto';
   color: #282828;
   font-size: 20px;
+  padding-bottom: 10px;
+}
+.value-body {
+  font-family: 'Roboto';
+  color: #868686;
+  font-size: 15px;
 }
 .title {
   font-family: 'Roboto';
@@ -108,4 +139,22 @@ label {
   font-family: 'Roboto';
   font-size: 16px;
   color: red;
+}
+
+.form-label {
+  font-family: 'Roboto-light';
+  color: #282828;
+  font-size: 16px;
+}
+
+@media only screen and (min-width : 902px) {
+
+}
+
+@media only screen and (min-width: 580px) and (max-width : 901px) {
+
+}
+
+@media only screen and (max-width : 579px) {
+
 }

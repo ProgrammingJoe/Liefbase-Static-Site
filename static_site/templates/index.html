@@ -4,29 +4,31 @@
   <div>
     <div class="landing-bg">
     </div>
+    <div class="navbar">
+      <div id="hamburger-menu">
+        <span class="navbar-option">
+          <img class="hamburger-logo" src="">
+          <div id="hamburger-x" class="navbar-right hamburger-toggle" onclick="hideHamburger()">
+            <i data-feather="x"></i>
+          </div>
+        </span>
+        <a href="{{ url_for('about') }}"><span class="navbar-option">{{ _('About') }}</span></a>
+        <a href="{{ url_for('donate') }}"><span class="navbar-option navbar-donate">{{ _('Donate') }}</span></a>
+      </div>
+    </div>
     <div class="landing">
-      {% block header %}
-      <div class="header header-landing">
-        <div class="header-left">
-          <a href="/"><p class="header-branding">liefbase</p></a>
+      {% block navbar %}
+      <div class="navbar navbar-landing">
+        <div class="navbar-left">
+          <a href="/"><p class="navbar-branding">liefbase</p></a>
         </div>
 
-        <div class="header-right header-inline-menu">
-          <a href="{{ url_for('about') }}"><p class="header-option">{{ _('About') }}</p></a>
-          <a href="{{ url_for('donate') }}"><p class="header-option header-donate">{{ _('Donate') }}</p></a>
+        <div class="navbar-right navbar-inline-menu">
+          <a href="{{ url_for('about') }}"><p class="navbar-option">{{ _('About') }}</p></a>
+          <a href="{{ url_for('donate') }}"><p class="navbar-option navbar-donate">{{ _('Donate') }}</p></a>
         </div>
-        <div id="hamburger-lines" class="header-right hamburger-toggle" onclick="showHamburger()">
+        <div id="hamburger-lines" class="navbar-right hamburger-toggle" onclick="showHamburger()">
           <i data-feather="align-justify"></i>
-        </div>
-        <div id="hamburger-menu">
-          <span class="header-option">
-            <img class="hamburger-logo" src="">
-            <div id="hamburger-x" class="header-right hamburger-toggle" onclick="hideHamburger()">
-              <i data-feather="x"></i>
-            </div>
-          </span>
-          <a href="{{ url_for('about') }}"><span class="header-option">{{ _('About') }}</span></a>
-          <a href="{{ url_for('donate') }}"><span class="header-option header-donate">{{ _('Donate') }}</span></a>
         </div>
       </div>
       {% endblock %}
@@ -35,14 +37,12 @@
         <p class="slogan">{{ _('Your headquarters for managing relief efforts') }}</p>
         <p class="slogan-sub">{{ _('A communication and collaboration platform for disaster relief and humanitarian relief efforts.') }}</p>
 
-        <a href="{{ url_for('contact', demo=1) }}"><div class="demo-signup button">{{ _('REQUEST A DEMO') }}</div></a>
+        <a class="demo-signup button" href="{{ url_for('contact', demo=1) }}">{{ _('REQUEST A DEMO') }}</a>
       </div> <!-- End of landing-body -->
     </div>
 
 
   <div class="products-body">
-
-    <p class="platform-description standard-text">placeholder</p>
 
     <p class="platform-header section-header">{{ _('Features') }}</p>
 
@@ -128,9 +128,9 @@
 
   <div class="demo-container">
     <div class="demo-block">
-      <p class="demo-ready section-header">{{ _('Ready for a Demo?') }}</p>
+      <p class="demo-header">{{ _('Ready for a Demo?') }}</p>
       <p class="demo-body sub-header">{{ _('Developing a platform that meets the needs and requirements of our customers is our number one priority. Contact us for a demo so that we can let you know what our plans are and you can help us shape the future platform.') }}</p>
-      <a href="{{ url_for('contact', demo=1) }}"><div class="demo-signup-bot button-intra">{{ _('REQUEST A DEMO') }}</div></a>
+      <a class="demo-signup-bot button-intra button" href="{{ url_for('contact', demo=1) }}">{{ _('REQUEST A DEMO') }}</a>
     </div>
   </div>
 
