@@ -49,6 +49,12 @@ p {
   margin-bottom: 1.8em;
 }
 
+.footer-branding {
+  font-family: 'Roboto';
+  color: #2159F9;
+  font-size: 24px;
+}
+
 .header {
   font-family: 'Roboto';
   color: #282828;

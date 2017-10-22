@@ -46,9 +46,7 @@ a:hover {
   overflow: hidden;
 }
 
-.footer-logo,
-.hamburger-logo,
-.footer-socials {
+.hamburger-logo {
   display: none;
 }
 
@@ -213,20 +211,31 @@ a:hover {
 .footer-container {
   background-image: url('../img/footer-mask.svg');
 }
-.footer-link-column {
-  display: inline-block;
-  padding: 0 30px;
-  vertical-align: top;
-}
-.footer-link-column:last-child {
-  padding: 0 30px 0 0;
-}
-.footer-link {
-  display: block;
-}
 .footer-top,
 .footer-bottom {
   overflow: auto;
+}
+.footer-language {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
+}
+.footer-branding {
+  display: inline-block;
+  float: left;
+}
+.footer-links {
+  float: right;
+}
+.footer-link {
+  display: inline;
+  padding: 0 5px;
+}
+.footer-link:last-child {
+  padding: 0 0 0 5px;
+}
+.footer-link-column {
+  display: none;
 }
 
 #hamburger-menu {
@@ -290,14 +299,7 @@ a:hover {
   }
 
   .footer {
-    padding: 60px 0 25px 0;
-  }
-  .footer-links {
-    float: right;
-  }
-  .footer-logo {
-    width: 100px;
-    height: 100px;
+    padding: 60px 30px 25px 30px;
   }
   .footer-bottom {
     padding: 40px 0 0 0;
@@ -339,14 +341,7 @@ a:hover {
   }
 
   .footer {
-    padding: 45px 0 20px 0;
-  }
-  .footer-links {
-    float: right;
-  }
-  .footer-logo {
-    width: 80px;
-    height: 80px;
+    padding: 45px 30px 20px 30px;
   }
   .footer-bottom {
     padding: 40px 0 0 0;
@@ -412,18 +407,25 @@ a:hover {
     background-color: #FBFBFB;
   }
 
+  .footer-link-inline {
+    display: none;
+  }
+  .footer-link-column {
+    display: inline-block;
+    padding: 0;
+    vertical-align: top;
+  }
+  .footer-link-column:last-child {
+    padding: 0 0 0 30px;
+  }
   .footer {
-    padding: 30px 0 20px 0;
+    padding: 30px 30px 20px 30px;
   }
   .footer-links {
     padding: 0 0 30px 0;
   }
-  .footer-logo {
-    width: 50px;
-    height: 50px;
-  }
-  .footer-link-column {
-    width: calc(50% - 30px);
+  .footer-link {
+    display: block;
   }
   .footer-copyrights,
   .footer-socials {
@@ -431,12 +433,6 @@ a:hover {
   }
   .navbar-inline-menu {
     display: none;
-  }
-  .footer-link-column:first-child {
-    padding: 0 0 0 30px;
-  }
-  .footer-link-column:last-child {
-    padding: 0 30px 0 0;
   }
 
   .hamburger-toggle {

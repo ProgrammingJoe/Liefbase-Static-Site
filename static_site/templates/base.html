@@ -43,20 +43,32 @@
     <div class="footer-container">
       <div class="footer">
         <div class="footer-top">
-          <img class="footer-logo" src="">
+          <p class="footer-branding">liefbase</p>
           <div class="footer-links">
+            <div class="footer-link-inline">
+              <a class="footer-link standard-text-lg" href="/">{{ _('Product') }}</a>
+              <a class="footer-link standard-text-lg" href="{{ url_for('donate') }}">{{ _('Donate') }}</a>
+              <a class="footer-link standard-text-lg" href="{{ url_for('about') }}">{{ _('About') }}</a>
+              <a class="footer-link standard-text-lg" href="{{ url_for('contact', demo=0) }}">{{ _('Contact') }}</a>
+              <a class="footer-link standard-text-lg" href="{{ url_for('contact', demo=1) }}">{{ _('Demo Request') }}</a>
+            </div>
             <div class="footer-link-column">
               <a class="footer-link standard-text-lg" href="/">{{ _('Product') }}</a>
               <a class="footer-link standard-text-lg" href="{{ url_for('donate') }}">{{ _('Donate') }}</a>
             </div><div class="footer-link-column">
               <a class="footer-link standard-text-lg" href="{{ url_for('about') }}">{{ _('About') }}</a>
               <a class="footer-link standard-text-lg" href="{{ url_for('contact', demo=0) }}">{{ _('Contact') }}</a>
-              <a class="footer-link standard-text-lg" href="{{ url_for('contact', demo=1) }}">{{ _('Request a Demo') }}</a>
+              <a class="footer-link standard-text-lg" href="{{ url_for('contact', demo=1) }}">{{ _('Demo Request') }}</a>
             </div>
           </div>
         </div>
         <div class="footer-bottom">
           <div class="footer-socials">
+            {% if french %}
+              <p class="footer-language sub-title-lg">Français</p>
+            {% else %}
+              <p class="footer-language sub-title-lg">English</p>
+            {% endif %}
             <img class="footer-social" src="../static/img/twitter.svg">
             <img class="footer-social" src="">
             <img class="footer-social" src="">
