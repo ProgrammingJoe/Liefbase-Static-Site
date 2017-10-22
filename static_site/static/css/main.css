@@ -431,6 +431,12 @@ a:hover {
   .navbar-inline-menu {
     display: none;
   }
+  .footer-link-column {
+    padding: 0 20px;
+  }
+  .footer-link-column:last-child {
+    padding: 0 0 0 20px;
+  }
 
   .hamburger-toggle {
     display: block;
