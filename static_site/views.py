@@ -48,7 +48,7 @@ def contact(demo):
     if form and form.validate() == False and demo == False or form2 and form2.validate() == False and demo == True:
       error_message = gettext('All fields are required and e-mail must be valid')
       flash(error_message)
-      return render_template('contact.html', form=form, form2=form2, demo=demo, **locals())
+      return render_template('contact.html', **locals())
     elif form2 and form2.validate() == True:
       msg = Message("Demo Request", sender='liefbaseinfo@gmail.com', recipients=['liefbaseinfo@gmail.com'])
       msg.body = """
@@ -56,7 +56,7 @@ def contact(demo):
       %s
       """ % (form.name.data, form.email.data, form.message.data)
       mail.send(msg)
-      return render_template('contact.html', success=True, demo=True, **locals())
+      return render_template('contact.html', **locals())
     elif form and form.validate() == True:
       msg = Message(form.subject.data, sender='liefbaseinfo@gmail.com', recipients=['liefbaseinfo@gmail.com'])
       msg.body = """
@@ -64,12 +64,12 @@ def contact(demo):
       %s
       """ % (form.name.data, form.email.data, form.message.data)
       mail.send(msg)
-      return render_template('contact.html', success=True, demo=False, **locals())
+      return render_template('contact.html', **locals())
     else:
-      return render_template('contact.html', form=form, form2=form2, demo=False, **locals())
+      return render_template('contact.html', **locals())
 
   elif request.method == 'GET':
-    return render_template('contact.html', form=form, form2=form2, demo=demo, **locals())
+    return render_template('contact.html', **locals())
 
 @babel.localeselector
 def get_locale():
