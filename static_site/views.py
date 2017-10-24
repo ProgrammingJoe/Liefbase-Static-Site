@@ -56,6 +56,7 @@ def contact(demo):
       %s
       """ % (form.name.data, form.email.data, form.message.data)
       mail.send(msg)
+      success = True
       return render_template('contact.html', **locals())
     elif form and form.validate() == True:
       msg = Message(form.subject.data, sender='liefbaseinfo@gmail.com', recipients=['liefbaseinfo@gmail.com'])
@@ -64,6 +65,7 @@ def contact(demo):
       %s
       """ % (form.name.data, form.email.data, form.message.data)
       mail.send(msg)
+      success = True
       return render_template('contact.html', **locals())
     else:
       return render_template('contact.html', **locals())
