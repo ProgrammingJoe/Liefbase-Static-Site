@@ -1,23 +1,51 @@
 .donate-button {
-  padding: 12px;
   border-radius: 3px;
+	padding: 16px 20px 16px 20px;
   display: inline-block;
   color: white;
   background-color: #2159F9;
+	box-shadow: 0px 4px 10px rgba(43, 43, 43, 0.15);
 }
 
 .donate-button-container {
   display: inline-block;
-  width: 50%;
   text-align: center;
+	padding: 0 20px 0 20px;
 }
 
 .donate-buttons {
-  margin: 40px 0 15px 0;
+	display: table;
+	margin: 0 auto;
+	padding-top: 80px;
 }
 
 .donate-block {
   background-color: white;
-  box-shadow: 0px 4px 20px rgba(43, 43, 43, 0.25);
-  padding: 35px;
+  box-shadow: 0px 1px 6px rgba(105, 105, 105, 0.25);
+  padding: 100px 110px 100px 110px;
+	border-radius: 4px;
+	margin-top: 50px;
+}
+
+
+@media only screen and (min-width : 902px) {
+
+}
+
+@media only screen and (min-width: 580px) and (max-width : 901px) {
+	.donate-block {
+  	padding: 70px 80px 70px 80px;
+	}
+}
+
+@media only screen and (max-width : 579px) {
+	.donate-block {
+  	padding: 38px 42px 38px 42px;
+	}
+	
+	 .donate-button {
+    display: block;
+		margin-bottom: 20px;
+  }
+
 }
