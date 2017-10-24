@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-10-22 10:50-0700\n"
+"POT-Creation-Date: 2017-10-23 16:36-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,19 +17,21 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.0\n"
 
-#: views.py:29
+#: views.py:49
 msgid "All fields are required and e-mail must be valid"
 msgstr ""
 
-#: templates/about.html:16 templates/about.html:29 templates/base.html:53
-#: templates/contact.html:16 templates/contact.html:29 templates/donate.html:16
-#: templates/donate.html:29 templates/index.html:15 templates/index.html:27
+#: templates/about.html:16 templates/about.html:29 templates/base.html:51
+#: templates/base.html:59 templates/contact.html:16 templates/contact.html:29
+#: templates/donate.html:16 templates/donate.html:29 templates/index.html:15
+#: templates/index.html:27
 msgid "About"
 msgstr ""
 
 #: templates/about.html:17 templates/about.html:30 templates/base.html:50
-#: templates/contact.html:17 templates/contact.html:30 templates/donate.html:17
-#: templates/donate.html:30 templates/index.html:16 templates/index.html:28
+#: templates/base.html:57 templates/contact.html:17 templates/contact.html:30
+#: templates/donate.html:17 templates/donate.html:30 templates/index.html:16
+#: templates/index.html:28
 msgid "Donate"
 msgstr ""
 
@@ -60,43 +62,43 @@ msgstr ""
 msgid " & Developer"
 msgstr ""
 
-#: templates/about.html:60
+#: templates/about.html:58
 msgid "Developer & Finances"
 msgstr ""
 
-#: templates/about.html:70 templates/about.html:80 templates/about.html:90
-#: templates/about.html:100
+#: templates/about.html:66 templates/about.html:74 templates/about.html:82
+#: templates/about.html:90
 msgid "Developer"
 msgstr ""
 
-#: templates/about.html:110
+#: templates/about.html:98
 msgid "Designer"
 msgstr ""
 
-#: templates/about.html:120
+#: templates/about.html:106
 msgid "Technical Writer"
 msgstr ""
 
-#: templates/about.html:128
+#: templates/about.html:114
 msgid "Some things that matter to us"
 msgstr ""
 
-#: templates/about.html:131
+#: templates/about.html:117
 msgid "Transparency and Accountability"
 msgstr ""
 
-#: templates/about.html:132
+#: templates/about.html:118
 msgid ""
 "We believe that transparency and accountability between disaster relief "
 "organizations, government organizations, and the public will save time "
 "and resources, promote stronger relationships, and foster collaboration."
 msgstr ""
 
-#: templates/about.html:137
+#: templates/about.html:123
 msgid "Integrity and Security"
 msgstr ""
 
-#: templates/about.html:138
+#: templates/about.html:124
 msgid ""
 "We offer secure and confidential platforms that provide organizations and"
 " the public with assurance that their data and personal information will "
@@ -104,11 +106,11 @@ msgid ""
 "disclosure."
 msgstr ""
 
-#: templates/about.html:143
+#: templates/about.html:129
 msgid "Impartiality and Neutrality"
 msgstr ""
 
-#: templates/about.html:144
+#: templates/about.html:130
 msgid ""
 "Our goal is developing tools accessible to all organizations and persons "
 "during relief efforts. We are committed to working with all people and "
@@ -117,30 +119,30 @@ msgid ""
 "age, sex, gender identity, or sexual orientation."
 msgstr ""
 
-#: templates/about.html:150
+#: templates/about.html:136
 msgid "Ready to get in touch?"
 msgstr ""
 
-#: templates/about.html:151 templates/contact.html:52
+#: templates/about.html:137 templates/contact.html:52
 msgid ""
 "Contact us with your questions, complaints, praise, feature requests, or "
 "any other comments you may have. It all helps!"
 msgstr ""
 
-#: templates/about.html:152
+#: templates/about.html:138
 msgid "CONTACT US"
 msgstr ""
 
-#: templates/base.html:49
+#: templates/base.html:49 templates/base.html:56
 msgid "Product"
 msgstr ""
 
-#: templates/base.html:54
+#: templates/base.html:52 templates/base.html:60
 msgid "Contact"
 msgstr ""
 
-#: templates/base.html:55
-msgid "Request a Demo"
+#: templates/base.html:53 templates/base.html:61
+msgid "Demo Request"
 msgstr ""
 
 #: templates/contact.html:38
@@ -189,7 +191,7 @@ msgstr ""
 msgid "We appreciate your support!"
 msgstr ""
 
-#: templates/donate.html:38
+#: templates/donate.html:39
 msgid ""
 "Liefbase is developing platforms to help communities and organizations "
 "around the world work together in times of stress. We believe that rather"
@@ -199,26 +201,26 @@ msgid ""
 "your donations help keep the Liefbase community growing and cohesive."
 msgstr ""
 
-#: templates/donate.html:40
+#: templates/donate.html:41
 msgid ""
-"Rest assured that the donations you make today may help get resources to "
-"people in need in times of stress."
+"Rest assured that the donations you make today will help get resources to"
+" people in need in times of stress."
 msgstr ""
 
-#: templates/donate.html:45
-msgid "JOIN OUR COMMUNITY"
-msgstr ""
-
-#: templates/donate.html:50
-msgid "DONATE"
-msgstr ""
-
-#: templates/donate.html:56
+#: templates/donate.html:43
 msgid "Thanks,"
 msgstr ""
 
-#: templates/donate.html:58
+#: templates/donate.html:45
 msgid "The Liefbase Team"
+msgstr ""
+
+#: templates/donate.html:49
+msgid "JOIN OUR COMMUNITY"
+msgstr ""
+
+#: templates/donate.html:54
+msgid "DONATE"
 msgstr ""
 
 #: templates/index.html:37
@@ -231,7 +233,7 @@ msgid ""
 "humanitarian relief efforts."
 msgstr ""
 
-#: templates/index.html:40 templates/index.html:133
+#: templates/index.html:40 templates/index.html:119
 msgid "REQUEST A DEMO"
 msgstr ""
 
@@ -249,93 +251,93 @@ msgid ""
 "like to see at any given moment."
 msgstr ""
 
-#: templates/index.html:61
+#: templates/index.html:59
 msgid "Customizable Functionality"
 msgstr ""
 
-#: templates/index.html:62
+#: templates/index.html:60
 msgid ""
 "Users can customize their experience by creating custom map information, "
 "saving past searches, and more."
 msgstr ""
 
-#: templates/index.html:69
+#: templates/index.html:65
 msgid "Real Time Updating"
 msgstr ""
 
-#: templates/index.html:70
+#: templates/index.html:66
 msgid ""
 "Online maps will update automatically, in real-time, as users add new "
 "information."
 msgstr ""
 
-#: templates/index.html:77
+#: templates/index.html:71
 msgid "Public Input"
 msgstr ""
 
-#: templates/index.html:78
+#: templates/index.html:72
 msgid ""
 "The public can supply information and support to others before and after "
 "organizational help arrives."
 msgstr ""
 
-#: templates/index.html:83
+#: templates/index.html:77
 msgid "Future Plans"
 msgstr ""
 
-#: templates/index.html:89
+#: templates/index.html:83
 msgid "Shared Environments"
 msgstr ""
 
-#: templates/index.html:90
+#: templates/index.html:84
 msgid ""
 "Organizations will be able to manage their own maps or choose to share "
 "and collaborate with other stakeholders."
 msgstr ""
 
-#: templates/index.html:97
+#: templates/index.html:89
 msgid "Offline Support"
 msgstr ""
 
-#: templates/index.html:98
+#: templates/index.html:90
 msgid ""
 "Users will be able to export and print maps for offline support in relief"
 " zones."
 msgstr ""
 
-#: templates/index.html:105
+#: templates/index.html:95
 msgid "Report Generation"
 msgstr ""
 
-#: templates/index.html:106
+#: templates/index.html:96
 msgid ""
 "Users will be able to generate reports summarizing the efforts made in "
 "relief efforts."
 msgstr ""
 
-#: templates/index.html:113
+#: templates/index.html:101
 msgid "Legacy Imports"
 msgstr ""
 
-#: templates/index.html:114
+#: templates/index.html:102
 msgid "Organizations will be able to import their pre-existing map data."
 msgstr ""
 
-#: templates/index.html:121
+#: templates/index.html:107
 msgid "Custom Access"
 msgstr ""
 
-#: templates/index.html:122
+#: templates/index.html:108
 msgid ""
 "Users will be able to assign custom viewing and editing access to "
 "individuals, teams and organizations."
 msgstr ""
 
-#: templates/index.html:131
+#: templates/index.html:117
 msgid "Ready for a Demo?"
 msgstr ""
 
-#: templates/index.html:132
+#: templates/index.html:118
 msgid ""
 "Developing a platform that meets the needs and requirements of our "
 "customers is our number one priority. Contact us for a demo so that we "
