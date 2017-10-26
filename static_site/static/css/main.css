@@ -426,23 +426,20 @@ a:hover {
     display: block;
 		padding-top: 14px;
   }
-	.footer-link:last-child {
-  padding-top: 14px;
-  }
-	
+
 	.footer-branding {
 		padding-top: 14px;
 	}
-	
+
   .footer-copyrights,
   .footer-socials {
     text-align: center;
   }
-	
+
 	.footer-socials {
 		display: none;
 	}
-	
+
   .navbar-inline-menu {
     display: none;
   }
