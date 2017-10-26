@@ -273,6 +273,9 @@ a:hover {
   .contact-intro-container {
     padding: 70px 25% 20px 0;
   }
+  .donate-intro-container {
+    padding: 70px 0 0 0;
+  }
   .landing-body p {
     padding-right: 25%;
   }
@@ -374,7 +377,7 @@ a:hover {
     padding: 30px 0 20px 0;
   }
   .donate-intro-container {
-    padding: 15px 0 0 0;
+    padding: 30px 0 0 0;
   }
   .landing-body p {
     padding-right: 0;
@@ -458,11 +461,11 @@ a:hover {
   body > :first-child {
     position: relative;
     padding-bottom: 40px;
- }
+  }
 
   .products-body {
     padding-top: 40px;
-    }
+  }
 
   .about-body {
     padding: 0 30px 0 30px;
