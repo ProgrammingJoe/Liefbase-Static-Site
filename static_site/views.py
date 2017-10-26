@@ -6,39 +6,19 @@ from flask_babel import gettext
 
 @app.route('/')
 def index():
-  language = request.accept_languages.best_match(app.config['LANGUAGES'].keys())
-  if language == 'fr':
-      french = True
-  else:
-      english = True
   return render_template('index.html', **locals())
 
 @app.route('/donate')
 def donate():
-  language = request.accept_languages.best_match(app.config['LANGUAGES'].keys())
-  if language == 'fr':
-    french = True
-  else:
-    english = True
   return render_template('donate.html', **locals())
 
 @app.route('/about')
 def about():
-  language = request.accept_languages.best_match(app.config['LANGUAGES'].keys())
-  if language == 'fr':
-    french = True
-  else:
-    english = True
   return render_template('about.html', **locals())
 
 @app.route('/contact')
 @app.route('/contact/<demo>', methods=['GET', 'POST'])
 def contact(demo):
-  language = request.accept_languages.best_match(app.config['LANGUAGES'].keys())
-  if language == 'fr':
-    french = True
-  else:
-    english = True
   form = ContactForm()
   form2 = DemoForm()
 

@@ -4,13 +4,17 @@ body {
   background-color: #FBFBFB;
 }
 html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+  max-width: 100%;
+  overflow-x: hidden;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 body > :first-child {
   position: relative;
   box-shadow: 0 4px 31px rgba(179, 179, 179, .35);
   padding-bottom: 120px;
+  flex: auto;
 }
 
 input {
@@ -214,11 +218,6 @@ a:hover {
 .footer-bottom {
   overflow: auto;
 }
-.footer-language {
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 10px;
-}
 .footer-branding {
   display: inline-block;
   float: left;
@@ -229,9 +228,6 @@ a:hover {
 .footer-link {
   display: inline;
   padding: 0 10px;
-}
-.footer-link:last-child {
-  padding: 0 0 0 10px;
 }
 .footer-link-column {
   display: none;
