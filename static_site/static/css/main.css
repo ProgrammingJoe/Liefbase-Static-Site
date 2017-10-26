@@ -150,6 +150,9 @@ a:active {
   border: 1px solid white;
   border-radius: 3px;
 }
+#hamburger-menu .navbar-option {
+  line-height: 50px;
+}
 .navbar-donate.navbar-option {
   border-radius: 3px;
   border: 1px solid #2159F9;
@@ -274,7 +277,7 @@ a:active {
 }
 #hamburger-x {
   color: white;
-  top: 14px;
+  top: 4px;
   position: relative;
 }
 #hamburger-lines {

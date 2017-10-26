@@ -5,16 +5,16 @@
   color: white;
   background-color: #2159F9;
 	box-shadow: 0px 4px 10px rgba(43, 43, 43, 0.15);
+  text-align: center;
 }
 
 .donate-button-container {
   display: inline-block;
   text-align: center;
-	padding: 0 20px 0 20px;
 }
 
 .donate-buttons {
-	display: table;
+  display: table;
 	margin: 0 auto;
 	padding-top: 80px;
 }
@@ -29,23 +29,37 @@
 
 
 @media only screen and (min-width : 902px) {
-
+  .donate-button-container {
+    padding: 0 20px 0 20px;
+  }
 }
 
 @media only screen and (min-width: 580px) and (max-width : 901px) {
 	.donate-block {
   	padding: 70px 80px 70px 80px;
 	}
+
+  .donate-button-container {
+    padding: 0 20px 0 20px;
+  }
 }
 
 @media only screen and (max-width : 579px) {
 	.donate-block {
   	padding: 38px 42px 38px 42px;
 	}
-	
-	 .donate-button {
+
+  .donate-button-container {
     display: block;
-		margin-bottom: 20px;
+    padding: 0 40px 0 0;
   }
 
+  .donate-buttons {
+    display: block;
+  }
+	.donate-button {
+    display: block;
+		margin-bottom: 20px;
+    width: 100%;
+  }
 }
