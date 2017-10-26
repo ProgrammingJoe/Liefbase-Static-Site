@@ -15,23 +15,19 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-p {
-  margin: 0;
-}
-
 .navbar-branding {
   font-family: 'Roboto';
-  line-height: 48px;
   font-size: 24px;
   margin: 0;
   color: #2159F9;
+  padding: 3px 14px;
 }
 
 .navbar-option {
   font-family: 'Roboto';
   font-size: 18px;
   margin: 0;
-  padding: 0 10px;
+  padding: 6px 14px;
   color: #2159F9;
 }
 
