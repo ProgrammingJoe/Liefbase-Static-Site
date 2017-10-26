@@ -17,8 +17,26 @@ body > :first-child {
   flex: auto;
 }
 
+input,
+textarea {
+  font-size: 20px;
+  border: 1px solid #C7C7C7;
+  outline: none;
+}
 input {
   padding: 0 3px;
+}
+textarea {
+  padding: 3px;
+}
+input:hover,
+textarea:hover {
+  border: 1px solid #ADADAD;
+}
+input:focus,
+textarea:focus {
+  border: 1px solid #6B6B6B;
+  outline: none;
 }
 
 a {
