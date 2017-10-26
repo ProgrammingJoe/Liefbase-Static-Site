@@ -52,7 +52,7 @@ p {
 .footer-branding {
   font-family: 'Roboto';
   color: #2159F9;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .header {
@@ -127,13 +127,13 @@ label {
   font-size: 16px;
 }
 .standard-text {
-  font-family: 'Roboto-light';
-  color: #000000;
+  font-family: 'Roboto-Regular';
+  color: #868686;
   font-size: 15px;
 }
 .standard-text-lg {
-  font-family: 'Roboto-light';
-  color: #000000;
+  font-family: 'Roboto-Regular';
+  color: #868686;
   font-size: 16px;
 }
 .button {
@@ -167,5 +167,11 @@ label {
 }
 
 @media only screen and (max-width : 579px) {
+	.slogan {
+  	font-size: 36px;
+	}
 
+	.intro-header {
+  	font-size: 36px;
+	}
 }
