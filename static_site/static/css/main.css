@@ -24,10 +24,10 @@ textarea {
   outline: none;
 }
 input {
-  padding: 0 3px;
+  padding: 0 10px;
 }
 textarea {
-  padding: 3px;
+  padding: 10px;
 }
 input:hover,
 textarea:hover {
