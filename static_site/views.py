@@ -30,7 +30,7 @@ def contact(demo):
       flash(error_message)
       return render_template('contact.html', **locals())
     elif form2 and form2.validate() == True:
-      msg = Message("Demo Request", sender='liefbaseinfo@gmail.com', recipients=['liefbaseinfo@gmail.com'])
+      msg = Message("Demo Request", sender='info@liefbase.io', recipients=['info@liefbase.io'])
       msg.body = """
       From: %s <%s>
       %s
@@ -39,7 +39,7 @@ def contact(demo):
       success = True
       return render_template('contact.html', **locals())
     elif form and form.validate() == True:
-      msg = Message(form.subject.data, sender='liefbaseinfo@gmail.com', recipients=['liefbaseinfo@gmail.com'])
+      msg = Message(form.subject.data, sender='info@liefbase.io', recipients=['info@liefbase.io'])
       msg.body = """
       From: %s <%s>
       %s
