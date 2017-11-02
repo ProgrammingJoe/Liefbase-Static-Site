@@ -11,6 +11,8 @@
   width: 80px;
   height: 80px;
   border-radius: 40px;
+  -webkit-box-shadow: 0 1px 6px rgba(105, 105, 105, .25);
+  -moz-box-shadow: 0 1px 6px rgba(105, 105, 105, .25);
   box-shadow: 0 1px 6px rgba(105, 105, 105, .25);
 }
 .profile-text {
@@ -41,6 +43,8 @@
   background-color: white;
   margin-bottom: 40px;
   border-radius: 4px;
+  -webkit-box-shadow: 0 1px 6px rgba(105, 105, 105, .25);
+  -moz-box-shadow: 0 1px 6px rgba(105, 105, 105, .25);
   box-shadow: 0 1px 6px rgba(105, 105, 105, .25);
 }
 .value-image {

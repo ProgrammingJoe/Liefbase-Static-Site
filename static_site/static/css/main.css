@@ -12,6 +12,8 @@ html, body {
 }
 body > :first-child {
   position: relative;
+  -webkit-box-shadow: 0 4px 31px rgba(179, 179, 179, .35);
+  -moz-box-shadow: 0 4px 31px rgba(179, 179, 179, .35);
   box-shadow: 0 4px 31px rgba(179, 179, 179, .35);
   padding-bottom: 120px;
   flex: auto;
@@ -62,6 +64,8 @@ a:active {
 .button-intra {
   background-color: #2159F9;
   text-align: center;
+  -webkit-box-shadow:0px 4px 20px rgba(43, 43, 43, 0.25);
+  -moz-box-shadow: 0px 4px 20px rgba(43, 43, 43, 0.25);
   box-shadow: 0px 4px 20px rgba(43, 43, 43, 0.25);
 }
 .button:hover {
@@ -113,6 +117,8 @@ a:active {
   background-color: #2159f9;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
+  -webkit-box-shadow: 0px 4px 34px rgba(77, 77, 77, 0.25);
+  -moz-box-shadow: 0px 4px 34px rgba(77, 77, 77, 0.25);
   box-shadow: 0px 4px 34px rgba(77, 77, 77, 0.25);
 }
 
@@ -168,6 +174,8 @@ a:active {
   background-color: white;
   padding: 16px 20px 16px 20px;
   border-radius: 3px;
+  -webkit-box-shadow: 0px 4px 20px rgba(43, 43, 43, 0.25);
+  -moz-box-shadow: 0px 4px 20px rgba(43, 43, 43, 0.25);
   box-shadow: 0px 4px 20px rgba(43, 43, 43, 0.25);
 }
 
@@ -197,6 +205,8 @@ a:active {
   margin: 0;
 }
 .point-icon {
+  -webkit-box-shadow: 0 1px 6px rgba(105, 105, 105, .25);
+  -moz-box-shadow: 0 1px 6px rgba(105, 105, 105, .25);
   box-shadow: 0 1px 6px rgba(105, 105, 105, .25);
   padding: 6px;
   color: #2159F9;
@@ -219,6 +229,8 @@ a:active {
   background-color: white;
   text-align: center;
   border-radius: 4px;
+  -webkit-box-shadow: 0 1px 6px rgba(105, 105, 105, .25);
+  -moz-box-shadow: 0 1px 6px rgba(105, 105, 105, .25);
   box-shadow: 0 1px 6px rgba(105, 105, 105, .25);
   padding: 60px 0 50px 0;
 }

@@ -123,12 +123,12 @@ label {
   font-size: 16px;
 }
 .standard-text {
-  font-family: 'Roboto-Regular';
+  font-family: 'Roboto';
   color: #868686;
   font-size: 15px;
 }
 .standard-text-lg {
-  font-family: 'Roboto-Regular';
+  font-family: 'Roboto';
   color: #868686;
   font-size: 16px;
 }
@@ -155,12 +155,12 @@ label {
 }
 
 input {
-	font-family: 'roboto-light';
+	font-family: 'Roboto-light';
 	font-size: 18px;
 }
 
 textarea {
-	font-family: 'roboto-light';
+	font-family: 'Roboto-light';
 	font-size: 18px;
 }
 
