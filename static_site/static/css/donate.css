@@ -61,6 +61,9 @@
     display: block;
     padding: 0 40px 0 0;
   }
+  .donate-button-container-input.donate-button-container {
+    padding: 0px;
+  }
 
   .donate-buttons {
     display: block;
